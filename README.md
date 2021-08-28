@@ -26,6 +26,6 @@ The OPC DA/AE Server One-time fee for lifetime SCLA 1.0 license is available at
 
  * [OPC DA/AE Server](https://technosoftware.com/product/opc-daae-server/?attribute_pa_license=scla-10)
 
-### Get Support for the Solution under GPL 3.0 or SCLA 1.0:
+### Get Support for the Solution under GPL 3.0 or SCLA 1.0
 
 Support for the Solution under the GPL 3.0 or SCLA 1.0 is available [here](https://github.com/technosoftware-gmbh/opc-daae-server/issues).
