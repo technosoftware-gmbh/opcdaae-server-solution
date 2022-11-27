@@ -100,14 +100,14 @@ BEGIN
         BLOCK "200004b0"
         BEGIN
             VALUE "Comments", "OPC DA Server SDK C++"
-            VALUE "CompanyName", "Technosoftware GmbH"
+            VALUE "CompanyName", "SampleCompany"
             VALUE "FileDescription", "OPC DA Server SDK C++ 32bit"
-            VALUE "FileVersion", "2.0.0.0"
+            VALUE "FileVersion", "3.0.0.0"
             VALUE "InternalName", "OPC DA Server SDK C++ 32bit"
-            VALUE "LegalCopyright", "Copyright � 2011-2021 Technosoftware GmbH"
+            VALUE "LegalCopyright", "Copyright � 2011-2022 SampleCompany"
             VALUE "OriginalFilename", "OpcDaServer.exe"
             VALUE "ProductName", "OPC DA Server SDK C++ 32bit"
-            VALUE "ProductVersion", "2.0.0.0"
+            VALUE "ProductVersion", "3.0.0.0"
         END
     END
     BLOCK "VarFileInfo"
@@ -140,14 +140,14 @@ BEGIN
         BLOCK "200004b0"
         BEGIN
             VALUE "Comments", "OPC DA Server SDK C++"
-            VALUE "CompanyName", "Technosoftware GmbH"
+            VALUE "CompanyName", "SampleCompany"
             VALUE "FileDescription", "OPC DA Server SDK C++ 64bit"
-            VALUE "FileVersion", "2.0.0.0"
+            VALUE "FileVersion", "3.0.0.0"
             VALUE "InternalName", "OPC DA Server SDK C++ 64bit"
-            VALUE "LegalCopyright", "Copyright � 2011-2021 Technosoftware GmbH"
+            VALUE "LegalCopyright", "Copyright � 2011-2022 SampleCompany"
             VALUE "OriginalFilename", "OpcDaServer.exe"
             VALUE "ProductName", "OPC DA Server SDK C++ 64bit"
-            VALUE "ProductVersion", "2.0.0.0"
+            VALUE "ProductVersion", "3.0.0.0"
         END
     END
     BLOCK "VarFileInfo"

@@ -852,15 +852,15 @@ DLLEXP ClassicServerDefinition* DLLCALL IClassicBaseNodeManager::OnGetDaServerDe
 		// CLSID of current Server AppId
 		L"{0E12F59D-CEC1-467F-B9D6-123B308CDF13}",
 		// Version independent Prog.Id. 
-		L"Technosoftware.DaSimpleSample",
+		L"SampleCompany.DaSimpleSample",
 		// Prog.Id. of current Server
-		L"Technosoftware.DaSimpleSample.90",
+		L"SampleCompany.DaSimpleSample.30",
 		// Friendly name of server
 		L"OPC Server SDK C++ DA Simple Sample Server",
 		// Friendly name of current server version
-		L"OPC Server SDK C++ DA Simple Sample Server V9.0",
+		L"OPC Server SDK C++ DA Simple Sample Server V3.0",
 		// Companmy Name
-		L"Technosoftware GmbH"
+		L"SampleCompany"
 	};
 
 	return &DaServerDefinition;
