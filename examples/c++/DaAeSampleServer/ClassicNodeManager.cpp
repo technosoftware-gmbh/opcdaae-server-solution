@@ -1203,15 +1203,15 @@ DLLEXP ClassicServerDefinition* DLLCALL IClassicBaseNodeManager::OnGetDaServerDe
         // CLSID of current Server AppId
         L"{1F57EEE2-37BB-4194-91AF-7123676605AA}",
         // Version independent Prog.Id. 
-        L"Technosoftware.DaSample",
+        L"SampleCompany.DaSample",
         // Prog.Id. of current Server
-        L"Technosoftware.DaSample.90",
+        L"SampleCompany.DaSample.30",
         // Friendly name of server
         L"OPC Server SDK C++ DA Sample Server",
         // Friendly name of current server version
-        L"OPC Server SDK C++ DA Sample Server V9.0",
+        L"OPC Server SDK C++ DA Sample Server V3.0",
         // Companmy Name
-        L"Technosoftware GmbH"
+        L"SampleCompany"
     };
 
     return &DaServerDefinition;
@@ -1230,15 +1230,15 @@ DLLEXP ClassicServerDefinition* DLLCALL IClassicBaseNodeManager::OnGetAeServerDe
         // CLSID of current Server AppId
         L"{9572A5BD-D0DF-4D01-8B83-DA555D005C61}",
         // Version independent Prog.Id. (must be same as DA)
-        L"Technosoftware.AeSample",
+        L"SampleCompany.AeSample",
         // Prog.Id. of current Server
-        L"Technosoftware.AeSample.90",
+        L"SampleCompany.AeSample.30",
         // Friendly name of server
         L"OPC Server SDK C++ AE Sample Server",
         // Friendly name of current server version
-        L"OPC Server SDK C++ AE Sample Server V9.0",
+        L"OPC Server SDK C++ AE Sample Server V3.0",
         // Companmy Name
-        L"Technosoftware GmbH"
+        L"SampleCompany"
     };
 
     return &AeServerDefinition;
