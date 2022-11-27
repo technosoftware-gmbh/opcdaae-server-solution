@@ -399,6 +399,7 @@ unsigned __stdcall RefreshThread(LPVOID pAttr)
 
     for (;;) {                                   // Thread Loop
 
+        CoFileTimeNow(&time_stamp);
         if (gDeviceItem_NumberItems != NULL) {
             V_I4(&value) = gNumberItems;
             V_VT(&value) = VT_I4;
@@ -1262,13 +1263,13 @@ DLLEXP ClassicServerDefinition* DLLCALL OnGetDaServerDefinition(void)
         // Version independent Prog.Id. 
         L"OpcDllDaAe.DaSample",
         // Prog.Id. of current Server
-        L"OpcDllDaAe.DaSample.90",
+        L"OpcDllDaAe.DaSample.30",
         // Friendly name of server
         L"OPC Server SDK DLL DA Sample Server",
         // Friendly name of current server version
-        L"OPC Server SDK DLL DA Sample Server V9.0",
-        // Companmy Name
-        L"Technosoftware GmbH"
+        L"OPC Server SDK DLL DA Sample Server V3.0",
+        // Company Name
+        L"SampleCompany"
     };
 
     return &DaServerDefinition;
@@ -1310,13 +1311,13 @@ DLLEXP ClassicServerDefinition* DLLCALL OnGetAeServerDefinition(void)
         // Version independent Prog.Id. (must be same as DA)
         L"OpcDllDaAe.AeSample",
         // Prog.Id. of current Server
-        L"OpcDllDaAe.AeSample.90",
+        L"OpcDllDaAe.AeSample.30",
         // Friendly name of server
         L"OPC Server SDK DLL AE Sample Server",
         // Friendly name of current server version
-        L"OPC Server SDK DLL AE Sample Server V9.0",
-        // Companmy Name
-        L"Technosoftware GmbH"
+        L"OPC Server SDK DLL AE Sample Server V3.0",
+        // Company Name
+        L"SampleCompany"
     };
 
     return &AeServerDefinition;
