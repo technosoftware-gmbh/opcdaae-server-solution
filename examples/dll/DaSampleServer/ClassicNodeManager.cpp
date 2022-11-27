@@ -919,13 +919,13 @@ DLLEXP ClassicServerDefinition* DLLCALL OnGetDaServerDefinition( void )
 		// Version independent Prog.Id. 
 		L"OpcDllDaAe.DaSimpleSample",
 		// Prog.Id. of current Server
-		L"OpcDllDaAe.DaSimpleSample.90",
+		L"OpcDllDaAe.DaSimpleSample.30",
 		// Friendly name of server
 		L"OPC Server SDK DLL DA Simple Sample Server",
 		// Friendly name of current server version
-		L"OPC Server SDK DLL DA Simple Sample Server V9.0",
-		// Companmy Name
-		L"Technosoftware GmbH"
+		L"OPC Server SDK DLL DA Simple Sample Server V3.0",
+		// Company Name
+		L"SampleCompany"
 	};
 
 	return &DaServerDefinition;
