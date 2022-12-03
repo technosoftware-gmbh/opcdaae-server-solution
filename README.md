@@ -4,7 +4,6 @@
 The OPC DA/AE Server Solution offers a fast and easy access to the OPC Data Access (DA) and OPC Alarms&Events (AE) technology. Develop OPC DA 2.05a, 3.00 00 and OPC AE 1.00, 1.10 compliant Servers with any compiler capable of either
 
 - generating a Windows DLL (OPC DA/AE Server Solution DLL). This results in a generic server executable plus a Windows DLL.
-- generating a .NET 4.8 assembly (OPC DA/AE Server Solution .NET). This results in a generic server executable plus a .NET 4.8 assembly.
 - generating one server executable without the use of any DLLs (Source code version required).
 
 The developer can concentrate on his application and servers can be developed fast and easily without the need to spend a lot of time learning how to implement the OPC specifications. The server API is easy to use and many OPC specific functions, e.g. creating a group or adding an item to a group are handled by the framework. Even the complex asynchronous read/write handling is handled by the framework.

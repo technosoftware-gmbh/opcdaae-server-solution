@@ -1,15 +1,15 @@
-if %1[==[ goto default
+IF "%~1" == "" goto default
 
-if exist ..\..\..\..\x64\OpcDllDaAeServer.exe 			copy ..\..\..\..\x64\OpcDllDaAeServer.exe %2\OpcDllDaAeServer.exe
-if exist ..\..\..\x64\OpcDllDaAeServer.exe    			copy ..\..\..\x64\OpcDllDaAeServer.exe %2\OpcDllDaAeServer.exe
+if exist ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Release\OpcDllDaAeServer.exe copy ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Release\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
+if exist ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Debug\OpcDllDaAeServer.exe copy ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Debug\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
 
-if exist %2\OpcDllDaAeServer.exe 						copy %2\OpcDllDaAeServer.exe %2%1\OpcDllDaAeServer.exe
+if exist OpcDllDaAeServer.exe copy OpcDllDaAeServer.exe %1\OpcDllDaAeServer.exe
 goto done
 
 :default
-if exist ..\..\..\..\x64\OpcDllDaAeServer.exe 			copy ..\..\..\..\x64\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
-if exist ..\..\..\x64\OpcDllDaAeServer.exe    			copy ..\..\..\x64\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
+if exist ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Release\OpcDllDaAeServer.exe copy ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Release\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
+if exist ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Debug\OpcDllDaAeServer.exe copy ..\..\..\src\Technosoftware\Server\ClassicServer\x64\DLL\Debug\OpcDllDaAeServer.exe OpcDllDaAeServer.exe
 
-if exist OpcDllDaAeServer.exe 							copy OpcDllDaAeServer.exe win32\debug
+if exist OpcDllDaAeServer.exe copy OpcDllDaAeServer.exe x64\Debug
 
 :done

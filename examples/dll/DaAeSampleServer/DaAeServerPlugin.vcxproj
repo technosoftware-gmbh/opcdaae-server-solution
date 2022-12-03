@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>ServerPlugin</ProjectName>
+    <ProjectName>DA/AE Server Plugin</ProjectName>
     <ProjectGuid>{C77D9ECA-4FF9-43A6-8D2E-CA1A1EB14CC9}</ProjectGuid>
     <RootNamespace>ServerPlugin</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -144,8 +144,10 @@
       <OutputFile>.\Debug/ServerPlugin.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Copy generic server executable...</Message>
-      <Command>"$(SolutionDir)PostBuild.bat" $(OutDir) "$(SolutionDir)"</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -201,8 +203,10 @@
       <OutputFile>.\Debug/ServerPlugin.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Copy generic server executable...</Message>
-      <Command>"$(SolutionDir)PostBuild64.bat" $(OutDir) "$(SolutionDir)"</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -257,8 +261,10 @@
       <OutputFile>.\Release/ServerPlugin.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuild.bat" $(OutDir) "$(SolutionDir)"</Command>
-      <Message>Copy generic server executable...</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -313,8 +319,10 @@
       <OutputFile>.\Release/ServerPlugin.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuild64.bat" $(OutDir) "$(SolutionDir)"</Command>
-      <Message>Copy generic server executable...</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

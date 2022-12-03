@@ -28,7 +28,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectName>OpcDllDaAeServer</ProjectName>
-    <ProjectGuid>{A25CED39-DBFD-47C1-AC29-D3D07D70BF9B}</ProjectGuid>
+    <ProjectGuid>{AB8C72EF-7ED2-495A-8A6A-C82D41373433}</ProjectGuid>
     <RootNamespace>ClassiDaComServer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -175,8 +175,10 @@
       <OutputFile>$(Platform)\DLL\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -230,8 +232,10 @@
       <OutputFile>$(Platform)\DLL\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -288,8 +292,10 @@
       <PreserveSbr>true</PreserveSbr>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -344,8 +350,10 @@
       <OutputFile>$(Platform)\DLL\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DAOnly|Win32'">
@@ -399,8 +407,10 @@
       <OutputFile>$(Platform)\DLL\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DAOnly|x64'">
@@ -454,8 +464,10 @@
       <OutputFile>$(Platform)\DLL\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
