@@ -13,6 +13,10 @@ The “Server API” defines easy to use interface functions required for develo
 
 The OPC DA/AE Server Solution offers unique features for performance and functionality improvements of the developed OPC Server like Event Driven Mode for Device Access; Dynamic address space with items added when they are first accessed by a client and removed when they are no longer in use; Item browsing can be implemented to browse the cache or the device/database.
 
+## Online Help
+
+We provide an online help for the current version: [OPC DA/AE Server Solution C++ Online Help](https://technosoftware.com/help/opc-daae-server-solution/30/)
+
 ### Licenses
 TECHNOSOFTWARE provides different licenses depending on the component and on the ownership of a purchased license of the user of the sources. A single ZIP file or a single repository can contain multiple components where the sources have different license models. The valid license is in the header of each source file.
 
