@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectName>OpcDaServer</ProjectName>
-    <ProjectGuid>{A25CED39-DBFD-47C1-AC29-D3D07D70BF9B}</ProjectGuid>
+    <ProjectGuid>{C6ED75A4-D1F6-4ADA-85D6-5114B52F715E}</ProjectGuid>
     <RootNamespace>ClassiDaComServer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
