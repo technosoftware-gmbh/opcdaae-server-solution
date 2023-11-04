@@ -136,8 +136,10 @@
       <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -187,8 +189,10 @@
       <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -242,8 +246,10 @@
       <PreserveSbr>true</PreserveSbr>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -295,8 +301,10 @@
       <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Performing registration...</Message>
-      <Command>rem copy ..\..\..\binaries\RegServer.exe $(TargetDir)\RegServer.exe</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

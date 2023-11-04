@@ -1,9 +1,8 @@
 This is the changelog file for the OPC DA/AE Server Solution.
 
 ## OPC DA/AE Server Solution - 3.0.0 (Work in Progress)
-- Updated C++ examples to VS 2022 Version 17.4.2
+- Updated C++ examples to VS 2022 Version 17.7.6
 - Removed DLL support
-- Removed .NET support
 
 ## OPC DA/AE Server Solution - 2.0.0
 - Refactored several parts of the server and removed a lot of warnings

@@ -387,7 +387,7 @@ unsigned __stdcall RefreshThread(LPVOID pAttr)
 {
 
     FILETIME	TimeStamp;
-    VARIANT     Value;
+    VARIANT     Value{};
 
     DWORD               dwCount = 0;							// Counter for simulation
     _variant_t          devfailattrs[2];
@@ -548,7 +548,7 @@ static void CreateSampleVariant(
             }
 
 
-            SAFEARRAYBOUND rgs;
+            SAFEARRAYBOUND rgs{};
             rgs.cElements = 4;
             rgs.lLbound = 0;
 
