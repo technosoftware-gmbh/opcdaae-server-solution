@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ad9e3914-18c4-4513-bc07-744b76a3be82}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Generic">
+      <UniqueIdentifier>{824b1bc1-00f0-4e15-9133-2ab0fed0d268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Generic Main">
+      <UniqueIdentifier>{0c242a87-d0fb-40e2-b275-8b66fbff2bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Data Access">
+      <UniqueIdentifier>{fd29a4d6-50ce-4893-a0a3-3c190c167a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\COM Classes">
+      <UniqueIdentifier>{9312f9aa-691d-4211-9eff-959322bf651f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Utilities">
+      <UniqueIdentifier>{1c550576-a27e-4486-9449-e237e511c275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Common">
+      <UniqueIdentifier>{bcb7bc28-fef7-4d4b-b67a-ff80eb13c992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Application Main">
+      <UniqueIdentifier>{0098bfa8-d4e9-4c55-a193-985876b5918e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic\Alarms&amp;Events">
+      <UniqueIdentifier>{a0abcb92-f6f2-4843-9e9b-06f069e2a4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6c7e9ec1-4692-412f-b943-1fb88bac201d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Generic Part">
+      <UniqueIdentifier>{dc28ddcc-99c6-4788-bb4c-61288d2e4c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\Main Defs">
+      <UniqueIdentifier>{42b3086b-7373-438d-8b00-5b3145ef3399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\Utility Defs">
+      <UniqueIdentifier>{0e58de3b-1569-47ce-939d-a91d9711743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\Data Access Defs">
+      <UniqueIdentifier>{01a66020-9338-4cf4-8e4a-e6ded9ac5d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\COM Classes Defs">
+      <UniqueIdentifier>{f63e76b5-ae53-452d-99ae-a39e3860d0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\Common Defs">
+      <UniqueIdentifier>{6a9c3fe5-28dc-46a0-99fd-159f01007dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Part\Alarms&amp;Events Defs">
+      <UniqueIdentifier>{7dbd1da3-e35b-4c08-8d01-8a5fd8b3fa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Specific-Generic Interface">
+      <UniqueIdentifier>{237a38dd-6f81-4587-b896-b710a3132a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6ba4e88c-807f-42a2-9c12-d1a81b5c6bc6}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\OpcString.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\OpcText.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\OpcTextReader.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\CoreMain.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\OpcSdk_i.c">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\OpcUtils.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\stdafx.cpp">
+      <Filter>Source Files\Generic\Generic Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\asyncio2.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\asyncio3.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaBrowse.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\datacallbackthread.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaDeviceItem.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\OpcEnumVariant.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaEnumItemAttributes.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGenericGroup.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGenericItem.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGenericServer.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\GroupDataObject.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaItemProperties.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaPublicGroup.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaPublicGroupManager.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\ReadWriteLock.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaBaseServer.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaAsynchronousThread.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\VariantPack.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\variantcompare.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\variantconversion.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGroup.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGroup_Custom.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaGroup_Dispatch.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaItem.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaComServer.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaComBaseServer.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaComBaseServer_Custom.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaComBaseServer_Dispatch.cpp">
+      <Filter>Source Files\Generic\COM Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\MatchPattern.cpp">
+      <Filter>Source Files\Generic\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\UtilityFuncs.cpp">
+      <Filter>Source Files\Generic\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\WideString.cpp">
+      <Filter>Source Files\Generic\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\OpcCommon.cpp">
+      <Filter>Source Files\Generic\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeAttributeValueMap.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeEventArea.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeCondition.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeConditionDefinition.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeComBaseServer.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeBaseServer.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeSource.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeComSubscriptionManager.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeAreaBrowser.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeEvent.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ae\AeCategory.cpp">
+      <Filter>Source Files\Generic\Alarms&amp;Events</Filter>
+    </ClCompile>
+    <ClCompile Include="AeServer.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="app_callbacks.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DaAddressSpace.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DaConfiguration.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DaServer.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceItem.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMain.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerUpdate.cpp">
+      <Filter>Source Files\Generic\Application Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Generic\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Da\DaItemProperty.cpp">
+      <Filter>Source Files\Generic\Data Access</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DaServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DaAddressSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\CoreGenericMain.h">
+      <Filter>Header Files\Generic Part\Main Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\stdafx.h">
+      <Filter>Header Files\Generic Part\Main Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\enumclass.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\FixOutArray.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\MatchPattern.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\tracecomm.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\UtilityDefs.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\UtilityFuncs.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\WideString.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaBrowse.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DataCallbackThread.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaEnumItemAttributes.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaGenericGroup.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaGenericItem.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaGenericServer.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaItemProperty.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\openarray.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaPublicGroup.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaPublicGroupManager.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\ReadWriteLock.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaServerInstanceHandle.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaAsynchronousThread.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\VariantPack.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\variantcompare.h">
+      <Filter>Header Files\Generic Part\Data Access Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaGroup.h">
+      <Filter>Header Files\Generic Part\COM Classes Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaItem.h">
+      <Filter>Header Files\Generic Part\COM Classes Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaComServer.h">
+      <Filter>Header Files\Generic Part\COM Classes Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaComBaseServer.h">
+      <Filter>Header Files\Generic Part\COM Classes Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\OpcCommon.h">
+      <Filter>Header Files\Generic Part\Common Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeAttributeValueMap.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeEventArea.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeAttribute.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeCategory.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeCondition.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeConditionDefinition.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeComBaseServer.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeSource.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeComSubscriptionManager.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeAreaBrowser.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeComServer.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeComSubscription.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeEvent.h">
+      <Filter>Header Files\Generic Part\Alarms&amp;Events Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaDeviceItem.h">
+      <Filter>Header Files\Specific-Generic Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ae\AeBaseServer.h">
+      <Filter>Header Files\Specific-Generic Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\CoreMain.h">
+      <Filter>Header Files\Specific-Generic Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Da\DaBaseServer.h">
+      <Filter>Header Files\Specific-Generic Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Generic Part\Main Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Generic Part\Utility Defs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Opcdataaccessserver.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Core\Opceventserver.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpcNetDaAeServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="App.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
