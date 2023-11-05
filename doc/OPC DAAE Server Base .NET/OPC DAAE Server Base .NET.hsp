@@ -1,0 +1,2029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentXProject Id="{76D92FEA-3799-4C52-81D9-7CAC4D3FDD8F}" Version="2018.1">
+  <Features>
+    <Feature>Document! X</Feature>
+  </Features>
+  <SeparateFiles>false</SeparateFiles>
+  <Flags>
+    <Flag Id="{4AAE0FD4-7313-4FEE-A25F-0785B885F736}" HighlightColor="#FFFFFFA1">Exclude from Booklet</Flag>
+    <Flag Id="{46CEF21D-3301-4517-A875-A0906828390E}" HighlightColor="#FFA1FFD0">Exclude from Online</Flag>
+  </Flags>
+  <PropertyDefinitions />
+  <PropertyDefinitionValues />
+  <Title m="2007-05-31T10:49:56Z">OPC Server Studio .NET</Title>
+  <ContentFiles>
+    <ContentFile FileName="ServerPlugin.dxc" Moniker="..\..\examples\net\C#\DaAeSampleServer\bin\x86\Release\net\ServerPlugin.dll" DocType="DX.NET" />
+  </ContentFiles>
+  <AutoDocFiles />
+  <ContentFromProjectPlugin />
+  <Filters>
+    <ExcludedItems>
+      <ExcludedItem>ServerPlugin~ServerPlugin.ClassicNodeManager</ExcludedItem>
+      <ExcludedItem>ServerPlugin~ServerPlugin.ClassicNodeManager+Heating1Condition</ExcludedItem>
+      <ExcludedItem>ServerPlugin~ServerPlugin.ClassicNodeManager+structIOTypes</ExcludedItem>
+      <ExcludedItem>ServerPlugin~ServerPlugin.ClassicNodeManager+structItemIDs</ExcludedItem>
+      <ExcludedItem>ServerPlugin~ServerPlugin.MyItem</ExcludedItem>
+      <ExcludedItem>ServerPlugin~ServerPlugin.MyItemProperty</ExcludedItem>
+    </ExcludedItems>
+  </Filters>
+  <JavascriptProjectPlugin />
+  <ComProjectPlugin />
+  <AjaxProjectPlugin />
+  <JavaProjectPlugin />
+  <DotNetAssemblies>
+    <Assembly FileName="..\..\examples\net\C#\DaAeSampleServer\bin\x86\Release\net\ServerPlugin.dll" RootTypeName="" />
+  </DotNetAssemblies>
+  <DatabaseProjectPlugin>
+    <Databases />
+  </DatabaseProjectPlugin>
+  <XsdProjectPlugin>
+    <XsdSchemas />
+  </XsdProjectPlugin>
+  <GlossaryProjectPlugin>
+    <IsGlossaryOutputEnabled>true</IsGlossaryOutputEnabled>
+    <Glossary>
+      <GlossaryItems>
+        <GlossaryItem Id="3502a577-5f11-4df9-913e-98fe26cbdffc" BuildFlags="" id="3502a577-5f11-4df9-913e-98fe26cbdffc">
+          <Term m="2012-03-09T18:39:25.0361328Z">AddressSpace</Term>
+          <Definition m="2012-03-09T18:39:37.2109375Z">AddressSpace is the collection of information that an OPC UA Server makes visible to its Clients. See Part 3: for a description of the contents and structure of the Server AddressSpace.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="07a56070-62ab-42ee-9163-9dd4595726c8" BuildFlags="" id="07a56070-62ab-42ee-9163-9dd4595726c8">
+          <Term m="2012-03-09T18:48:18.3916015Z">Alarm</Term>
+          <Definition m="2012-03-09T18:48:32.0058594Z">A type of Event associated with a state condition that typically requires acknowledgement. See Part 9: for a description of Alarms.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="163f8dd2-00e7-40c4-b058-b026e3bc65fa" BuildFlags="" id="163f8dd2-00e7-40c4-b058-b026e3bc65fa">
+          <Term m="2012-03-09T18:48:43.0058594Z">Attribute</Term>
+          <Definition m="2012-03-09T18:48:51.0839844Z">An Attribute is a primitive characteristic of a Node. All Attributes are defined by OPC UA, and may not be defined by Clients or Servers. Attributes are the only elements in the AddressSpace permitted to have data values.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="6af13ba5-40a8-4267-beec-56d3759b3116" BuildFlags="" id="6af13ba5-40a8-4267-beec-56d3759b3116">
+          <Term m="2012-03-09T18:49:45.8007812Z">Certificate</Term>
+          <Definition m="2012-03-09T18:49:52.1474609Z">A certificate is a digitally signed data structure that describes capabilities of a Client or Server.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="f56b0fec-f9e2-407f-bfc6-7784d32c8006" BuildFlags="" id="f56b0fec-f9e2-407f-bfc6-7784d32c8006">
+          <Term m="2012-03-09T18:50:03.5849609Z">Client</Term>
+          <Definition m="2012-03-09T18:50:14.2480469Z">A software application that sends Messages to OPC UA Servers conforming to the Services specified in this set of specifications.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="47c39263-5c83-4e38-84b0-2035e84cd812" BuildFlags="" id="47c39263-5c83-4e38-84b0-2035e84cd812">
+          <Term m="2012-03-09T18:50:31.6054687Z">Condition</Term>
+          <Definition m="2012-03-09T18:50:40.0908203Z">A Condition is a generic term that is an extension to an Event. A Condition represents the conditions of a system or one of its components and always exists in some state.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="eaa3a551-ecb4-465e-a4b1-ad3c7c477e8c" BuildFlags="" id="eaa3a551-ecb4-465e-a4b1-ad3c7c477e8c">
+          <Term m="2012-03-09T18:51:04.7246094Z">Communication Stack</Term>
+          <Definition m="2012-03-09T18:51:11.7246094Z">A layered set of software modules between the application and the hardware that provides various functions to encode, encrypt and format a Message for sending, and to decode, decrypt and unpack a Message that was received.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="2af7e923-83d7-48bd-bbe2-e2421f5de315" BuildFlags="" id="2af7e923-83d7-48bd-bbe2-e2421f5de315">
+          <Term m="2012-03-09T18:51:24.984375Z">Complex Data</Term>
+          <Definition m="2012-03-09T18:51:33.5078125Z">Data that is composed of elements or more than one primitive data type, such as a structure.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="8b982771-4fcb-4ceb-afc7-e89eeb56f921" BuildFlags="" id="8b982771-4fcb-4ceb-afc7-e89eeb56f921">
+          <Term m="2012-03-09T18:51:44.4814453Z">Discovery</Term>
+          <Definition m="2012-03-09T18:51:51.0546875Z">Discovery represents the process by which OPC UA Client obtain information about OPC UA Servers, including endpoint and security information.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="0584164b-214a-47d7-9439-be018fbffda7" BuildFlags="" id="0584164b-214a-47d7-9439-be018fbffda7">
+          <Term m="2012-03-09T18:52:06.493164Z">Event</Term>
+          <Definition m="2012-03-09T18:52:14.1064453Z">A generic term used to describe an occurrence of some significance within a system or system component.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="f199c91c-49dc-4917-b153-dadd9445f50d" BuildFlags="" id="f199c91c-49dc-4917-b153-dadd9445f50d">
+          <Term m="2012-03-09T18:52:25.078125Z">EventNotifier</Term>
+          <Definition m="2012-03-09T18:52:33.4755859Z">A special Attribute of a Node that signifies that a Client may subscribe to that particular Node to receive Notifications of Event occurrences.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="9b0bcde3-29ff-4424-b2b4-83e663dc4085" BuildFlags="" id="9b0bcde3-29ff-4424-b2b4-83e663dc4085">
+          <Term m="2012-03-09T18:52:48.0927734Z">Information Model</Term>
+          <Definition m="2012-03-09T18:52:56.9169922Z">An organizational framework that defines, characterizes and relates information resources of a given system or set of systems. The core address space model supports the representation of Information Models in the AddressSpace. See Part 5: for a description of the base OPC UA Information Model.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="3441634c-df79-4af2-a77f-fa7bd8ba9f1d" BuildFlags="" id="3441634c-df79-4af2-a77f-fa7bd8ba9f1d">
+          <Term m="2012-03-09T18:53:04.9121094Z">Message</Term>
+          <Definition m="2012-03-09T18:53:13.5078125Z">The data unit conveyed between Client and Server that represents a specific Service request or response.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="5f5e74d3-564e-4b12-84b2-9a545c8594c9" BuildFlags="" id="5f5e74d3-564e-4b12-84b2-9a545c8594c9">
+          <Term m="2012-03-09T18:53:43.1357422Z">Method</Term>
+          <Definition m="2012-03-09T18:53:53.5283203Z">A Method is a callable software function that is a component of an Object.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="dda89518-74cd-41ab-a7d7-9801a9eec058" BuildFlags="" id="dda89518-74cd-41ab-a7d7-9801a9eec058">
+          <Term m="2012-03-09T18:54:06.0126953Z">MonitoredItem</Term>
+          <Definition m="2012-03-09T18:54:12.5732422Z">A Client-defined entity in the Server used to monitor Attributes or EventNotifiers for new values or Event occurrences and generate Notifications for them.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="65a14c7b-4ef6-41fb-8789-86807dea842e" BuildFlags="" id="65a14c7b-4ef6-41fb-8789-86807dea842e">
+          <Term m="2012-03-09T18:54:23.4091797Z">Node</Term>
+          <Definition m="2012-03-09T18:54:30.3183594Z">A Node is the fundamental component of an AddressSpace.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="b618bd53-d707-4c13-b8e3-0364e4f3590a" BuildFlags="" id="b618bd53-d707-4c13-b8e3-0364e4f3590a">
+          <Term m="2012-03-09T18:56:29.671875Z">NodeClass</Term>
+          <Definition m="2012-03-09T18:56:41.0117187Z">A NodeClass is the class of a Node in an AddressSpace. NodeClasses define the metadata for the components of the OPC UA Object Model. They also define constructs, such as Views, that are used to organize the AddressSpace.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="cc378a9c-40b3-4510-b9fa-c857ecf547cb" BuildFlags="" id="cc378a9c-40b3-4510-b9fa-c857ecf547cb">
+          <Term m="2012-03-09T18:56:53.790039Z">Notification</Term>
+          <Definition m="2012-03-09T18:57:01.8037109Z">The generic term for data that announces the detection of an Event or of a changed Attribute value. Notifications are sent in NotificationMessages.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="e0b39e7a-a2c9-42a7-8284-0785e7227637" BuildFlags="" id="e0b39e7a-a2c9-42a7-8284-0785e7227637">
+          <Term m="2012-03-09T18:57:16.2753906Z">NotificationMessage</Term>
+          <Definition m="2012-03-09T18:57:24.8183594Z">A Message published from a Subscription that contains one or more Notifications.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="cff80cf8-5fd3-491d-8354-d9004174fa5d" BuildFlags="" id="cff80cf8-5fd3-491d-8354-d9004174fa5d">
+          <Term m="2012-03-09T18:57:33.5185547Z">Object</Term>
+          <Definition m="2012-03-09T18:57:41.6191406Z">An Object is a Node that represents a physical or abstract element of a system. Objects are modelled using the OPC UA Object Model. Systems, subsystems and devices are examples of Objects. An Object may be defined as an instance of an ObjectType.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="5ff1ac4d-b245-4032-b226-cf8e6fdec943" BuildFlags="" id="5ff1ac4d-b245-4032-b226-cf8e6fdec943">
+          <Term m="2012-03-09T18:57:54.3466797Z">Object Instance</Term>
+          <Definition m="2012-03-09T18:58:02.1474609Z">An Object Instance is a synonym for Object. Not all Objects are defined by ObjectTypes.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="9628dd98-41a7-4927-9d9c-6e5d836593e9" BuildFlags="" id="9628dd98-41a7-4927-9d9c-6e5d836593e9">
+          <Term m="2012-03-09T18:58:21.0585937Z">ObjectType</Term>
+          <Definition m="2012-03-09T18:58:28.8027344Z">An ObjectType is a Node that represents the type definition for an Object.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="34472127-1d2d-40b0-8571-fd50d3e3a971" BuildFlags="" id="34472127-1d2d-40b0-8571-fd50d3e3a971">
+          <Term m="2012-03-09T18:58:34.274414Z">Profile</Term>
+          <Definition m="2012-03-09T18:58:40.6484375Z">A specific set of capabilities, defined in Part 7:, to which a Server may claim conformance. Each Server may claim conformance to more than one Profile.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="ba3445fa-bc42-4e9f-9416-b15c9ac0cf04" BuildFlags="" id="ba3445fa-bc42-4e9f-9416-b15c9ac0cf04">
+          <Term m="2012-03-09T18:58:47.2207031Z">Program</Term>
+          <Definition m="2012-03-09T18:58:53.7753906Z">An executable Object that, when invoked, immediately returns a response to indicate that execution has started, and then returns intermediate and final results through Subscriptions identified by the Client during invocation.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="b3e63bee-49cd-470d-afb4-9879ef031734" BuildFlags="" id="b3e63bee-49cd-470d-afb4-9879ef031734">
+          <Term m="2012-03-09T18:59:00.055664Z">Reference</Term>
+          <Definition m="2012-03-09T18:59:07.6953125Z">A Reference is an explicit relationship (a named pointer) from one Node to another. The Node that contains the Reference is the source Node, and the referenced Node is the target Node. All References are defined by ReferenceTypes.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="e74cf004-dd75-4498-9b82-8fd1a0c3ef64" BuildFlags="" id="e74cf004-dd75-4498-9b82-8fd1a0c3ef64">
+          <Term m="2012-03-09T18:59:13.8476562Z">ReferenceType</Term>
+          <Definition m="2012-03-09T18:59:22.9658203Z">A ReferenceType is a Node that represents the type definition of a Reference. The ReferenceType specifies the semantics of a Reference. The name of a ReferenceType identifies how source Nodes are related to target Nodes and generally reflects an operation between the two, such as “A Contains B”.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="997d7825-34b3-4d99-9600-eaabce8d5572" BuildFlags="" id="997d7825-34b3-4d99-9600-eaabce8d5572">
+          <Term m="2012-03-09T18:59:28.5390625Z">RootNode</Term>
+          <Definition m="2012-03-09T18:59:35.290039Z">The beginning or top Node of a hierarchy. The RootNode of the OPC UA AddressSpace is defined in Part 5.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="ae2f42f0-98a9-45a4-8d10-4165511e057f" BuildFlags="" id="ae2f42f0-98a9-45a4-8d10-4165511e057f">
+          <Term m="2012-03-09T18:59:42.5449219Z">Server</Term>
+          <Definition m="2012-03-09T18:59:49.3710937Z">A software application that implements and exposes the Services specified in this set of specifications.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="328296b5-56cb-44e5-a7eb-1753e13613da" BuildFlags="" id="328296b5-56cb-44e5-a7eb-1753e13613da">
+          <Term m="2012-03-09T18:59:56.1845703Z">Service</Term>
+          <Definition m="2012-03-09T19:00:03.883789Z">A Service is a Client-callable operation in an OPC UA Server. Services are defined in Part 4:. A Service is similar to a method call in a programming language or an operation in a Web services WSDL contract.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="6f5021c6-6d5f-44bf-8684-b8bd0af0aea4" BuildFlags="" id="6f5021c6-6d5f-44bf-8684-b8bd0af0aea4">
+          <Term m="2012-03-09T19:00:11.4863281Z">Service Set</Term>
+          <Definition m="2012-03-09T19:00:18.1318359Z">A Service Set is a group of related Services.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="f7c98e07-9dc0-4615-b326-154213cb9672" BuildFlags="" id="f7c98e07-9dc0-4615-b326-154213cb9672">
+          <Term m="2012-03-09T19:00:25.4863281Z">Session</Term>
+          <Definition m="2012-03-09T19:00:32.0859375Z">A Session is a logical long-running connection between a Client and a Server. A Session maintains state information between Service calls from the Client to the Server.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="b0583afb-a716-450f-9ce8-f5db37a95601" BuildFlags="" id="b0583afb-a716-450f-9ce8-f5db37a95601">
+          <Term m="2012-03-09T19:01:07.7832031Z">Variable</Term>
+          <Definition m="2012-03-09T19:01:15.1318359Z">A Variable is a Node that contains a value.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="ba15440f-1e19-4d99-af3f-e216b254e404" BuildFlags="" id="ba15440f-1e19-4d99-af3f-e216b254e404">
+          <Term m="2012-03-09T19:00:38.852539Z">Subscription</Term>
+          <Definition m="2012-03-09T19:00:59.0253906Z">A Client-defined endpoint in the Server, used to return Notifications to the Client. Generic term that describes a set of Nodes selected by the Client (1) that the Server periodically monitors for the existence of some condition, and (2) for which the Server sends Notifications to the Client when the condition is detected.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="92cede48-79d8-4a36-ace5-d28ef9793412" BuildFlags="" id="92cede48-79d8-4a36-ace5-d28ef9793412">
+          <Term m="2012-03-09T19:01:21.3144531Z">View</Term>
+          <Definition m="2012-03-09T19:01:28.0224609Z">A View is a specific subset of the AddressSpace that is of interest to the Client.</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="9acad343-f3d8-4b54-bbf8-cf9318378767" BuildFlags="" id="9acad343-f3d8-4b54-bbf8-cf9318378767">
+          <Term m="2012-03-09T19:03:07.5126953Z">API</Term>
+          <Definition m="2012-03-09T19:03:14.9648437Z">Application Programming Interface</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="ce8433b5-ccdd-4bbc-8a8b-dffe2acb701c" BuildFlags="" id="ce8433b5-ccdd-4bbc-8a8b-dffe2acb701c">
+          <Term m="2012-03-09T19:02:52.6728515Z">A&amp;E</Term>
+          <Definition m="2012-03-09T19:02:58.8818359Z">Alarms and Events</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="4472a64c-34f5-4a76-93d0-ba25f903152d" BuildFlags="" id="4472a64c-34f5-4a76-93d0-ba25f903152d">
+          <Term m="2012-03-09T19:03:52.703125Z">COM</Term>
+          <Definition m="2012-03-09T19:03:59.2421875Z">Component Object Model</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="27447f93-6479-44bc-b6b2-de6aa343b69e" BuildFlags="" id="27447f93-6479-44bc-b6b2-de6aa343b69e">
+          <Term m="2012-03-09T19:04:07.1142578Z">DA</Term>
+          <Definition m="2012-03-09T19:04:13.7578125Z">Data Access</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="e5b57827-0933-4858-98c5-02183624216f" BuildFlags="" id="e5b57827-0933-4858-98c5-02183624216f">
+          <Term m="2012-03-09T19:04:25.8183594Z">DCS</Term>
+          <Definition m="2012-03-09T19:04:31.3691406Z">Distributed Control System</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="949d5849-34e5-4b23-b90d-44bf9c395057" BuildFlags="" id="949d5849-34e5-4b23-b90d-44bf9c395057">
+          <Term m="2012-03-09T19:04:41.3984375Z">DX</Term>
+          <Definition m="2012-03-09T19:04:47.0214844Z">Data Exchange</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="62a2b0bd-f231-4a18-9100-3ef27aac9d9f" BuildFlags="" id="62a2b0bd-f231-4a18-9100-3ef27aac9d9f">
+          <Term m="2012-03-09T19:04:52.625Z">HDA</Term>
+          <Definition m="2012-03-09T19:04:57.9033203Z">Historical Data Access</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="5dfbb69c-2ed8-49d7-aaf4-c40397e943e3" BuildFlags="" id="5dfbb69c-2ed8-49d7-aaf4-c40397e943e3">
+          <Term m="2012-03-09T19:05:04.2763672Z">HMI</Term>
+          <Definition m="2012-03-09T19:05:10.8818359Z">Human-Machine Interface</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="7f39dc2f-a0ae-4289-b3b6-08a68f237c9c" BuildFlags="" id="7f39dc2f-a0ae-4289-b3b6-08a68f237c9c">
+          <Term m="2012-03-09T19:05:16.1005859Z">LDAP</Term>
+          <Definition m="2012-03-09T19:05:21.4746094Z">Lightweight Directory Access Protocol</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="45a6b259-1260-4044-8207-30bb59f01734" BuildFlags="" id="45a6b259-1260-4044-8207-30bb59f01734">
+          <Term m="2012-03-09T19:05:28.6386719Z">MES</Term>
+          <Definition m="2012-03-09T19:05:34.6474609Z">Manufacturing Execution System</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="af53cfa9-e606-4362-b399-5cdc720ce8ac" BuildFlags="" id="af53cfa9-e606-4362-b399-5cdc720ce8ac">
+          <Term m="2012-03-09T19:05:40.8027344Z">OPC</Term>
+          <Definition m="2012-03-09T19:05:46.7558594Z">Foundation (a non-profit industry association)</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="1d844653-d31e-4977-b4e0-941ed23b8749" BuildFlags="" id="1d844653-d31e-4977-b4e0-941ed23b8749">
+          <Term m="2012-03-09T19:05:54.8955078Z">PLC</Term>
+          <Definition m="2012-03-09T19:06:01.2089844Z">Programmable Logic Controller</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="803855aa-1c43-4af4-afe6-fea37a5c58fa" BuildFlags="" id="803855aa-1c43-4af4-afe6-fea37a5c58fa">
+          <Term m="2012-03-09T19:06:07.1171875Z">SCADA</Term>
+          <Definition m="2012-03-09T19:06:12.4902344Z">Supervisory Control and Data Acquisition</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="16973873-24a0-4b89-b9d4-724b5e55837e" BuildFlags="" id="16973873-24a0-4b89-b9d4-724b5e55837e">
+          <Term m="2012-03-09T19:06:18.8427734Z">SOAP</Term>
+          <Definition m="2012-03-09T19:06:25.680664Z">Simple Object Access Protocol</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="ae609062-818d-4bbe-861d-7731a100d0b6" BuildFlags="" id="ae609062-818d-4bbe-861d-7731a100d0b6">
+          <Term m="2012-03-09T19:06:32.2646484Z">UA</Term>
+          <Definition m="2012-03-09T19:06:37.5390625Z">Unified Architecture</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="c48fee47-0134-4e0d-8eef-24d3ef7d92db" BuildFlags="" id="c48fee47-0134-4e0d-8eef-24d3ef7d92db">
+          <Term m="2012-03-09T19:06:43.4746094Z">UDDI</Term>
+          <Definition m="2012-03-09T19:06:49.4179687Z">Universal Description, Discovery and Integration</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="8ef94c3b-43bc-449c-92aa-e491a7c0e374" BuildFlags="" id="8ef94c3b-43bc-449c-92aa-e491a7c0e374">
+          <Term m="2012-03-09T19:06:55.6113281Z">UML</Term>
+          <Definition m="2012-03-09T19:07:01.4746094Z">Unified Modelling Language</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="3aeb75f3-2900-4094-8191-47112b8a8eaf" BuildFlags="" id="3aeb75f3-2900-4094-8191-47112b8a8eaf">
+          <Term m="2012-03-09T19:07:07.7695312Z">WSDL</Term>
+          <Definition m="2012-03-09T19:07:12.9951172Z">Web Services Definition Language</Definition>
+        </GlossaryItem>
+        <GlossaryItem Id="5669fbf0-24ee-4ece-b896-c7e82019b52d" BuildFlags="" id="5669fbf0-24ee-4ece-b896-c7e82019b52d">
+          <Term m="2012-03-09T19:07:19.1269531Z">XML</Term>
+          <Definition m="2012-03-09T19:07:24.4599609Z">Extensible Mark-up Language</Definition>
+        </GlossaryItem>
+      </GlossaryItems>
+      <Title />
+    </Glossary>
+  </GlossaryProjectPlugin>
+  <WebServiceProjectPlugin>
+    <WebServices />
+  </WebServiceProjectPlugin>
+  <HelpProjectPlugin ShowGettingStartedPage="false" />
+  <OtherFilesProjectPlugin>
+    <OtherFiles>
+      <OtherFile Id="682dc595-37a5-4920-9271-c404553b9938" FileName="icons\hs-caution.gif" SourceData="widget:Caution Box" BuildFlags="" />
+      <OtherFile Id="4b4380ff-918c-44bd-80a7-4496271a8ec6" FileName="icons\hs-note.gif" SourceData="widget:Note Box" BuildFlags="" />
+      <OtherFile Id="110a9ae9-f4f3-46a1-90b8-b0121ee61df8" FileName="stylesheets\customstyles.css" SourceData="" BuildFlags="" />
+      <OtherFile Id="dbf1f576-2278-441a-9d75-89db44b01fb4" FileName="images\Technosoftware.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="6befc02c-3929-478e-b1be-1a99ea9055f3" FileName="images\Tick.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="a6302e3a-3b73-4c94-9111-76bcb8c8a93e" FileName="images\eventconddefsrccond.gif" SourceData="" BuildFlags="" />
+      <OtherFile Id="3337317c-816c-48f7-af30-d967fa3557c8" FileName="images\eventsourcenames.gif" SourceData="" BuildFlags="" />
+      <OtherFile Id="d637c999-c03a-4977-8dc7-c26b0f395deb" FileName="images\eventspace.gif" SourceData="" BuildFlags="" />
+      <OtherFile Id="40d6a910-8da6-45bf-baf8-8892fd6e1724" FileName="images\OPCDAAEServerBase.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="e1c8c26d-aaa3-4381-a158-cfc6e5185618" FileName="images\OPCDAAEServerNETCustomization.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="d7fcfd99-a618-45c9-81ef-6e68ea134a61" FileName="images\OPCDAAEServerNETServerCustomization.png" SourceData="" BuildFlags="" />
+    </OtherFiles>
+    <DefaultStylesheet></DefaultStylesheet>
+    <DefaultCaptureDirectory>images\</DefaultCaptureDirectory>
+  </OtherFilesProjectPlugin>
+  <SourceControlProjectPlugin />
+  <TasksProjectPlugin>
+    <Tasks>
+      <TaskItems />
+    </Tasks>
+  </TasksProjectPlugin>
+  <BookletsProjectPlugin />
+  <TableOfContents>
+    <TocLayout Id="a26571f9-b526-4386-aa82-5eedc7095a2e">
+      <Name />
+      <Description />
+      <RootNodes>
+        <TocNode Name="" Id="{F6A82151-D20E-4116-9433-2E30928C621F}" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate m="0001-01-01T00:00:00Z" />
+          <ChildNodes>
+            <TocNode Name="" Id="{1F164BAD-92E2-42EE-9B40-3FEF68D4C810}" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate m="0001-01-01T00:00:00Z" />
+              <ChildNodes />
+              <TargetItemId>{F2633C9A-4755-49BA-9C54-58DA4F582376}</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
+          </ChildNodes>
+          <TargetItemId>{EE6C442B-769D-491F-B730-CAE8A259C379}</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+        <TocNode Name="" Id="c0c1281e-b069-4617-bdf6-e59ebb58f083" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate />
+          <ChildNodes>
+            <TocNode Name="" Id="99ca0051-e388-44d8-a6ed-5922f3cb0c9c" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate />
+              <ChildNodes />
+              <TargetItemId>e28db194-2d3d-4fd3-a5f8-9fb80f478818</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
+            <TocNode Name="" Id="ae2aea42-ec2d-442c-9a7d-7bc2548d3c86" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate />
+              <ChildNodes>
+                <TocNode Name="" Id="e089b8dd-c077-43aa-8451-c022d9d9c17e" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>5b9271e6-618a-43a1-8e50-5a6354575e78</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+                <TocNode Name="" Id="2389e107-ed28-43f6-89e3-2eec36667d32" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>ddd8a4c1-1ed1-478b-af2f-946e18e6681f</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+                <TocNode Name="" Id="4ac6a309-ad72-4152-866f-371d9e9f77d5" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>b88ff674-569e-4a97-b113-49f3fde8f75b</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+                <TocNode Name="" Id="0f36fc62-3217-4780-bcc0-9967a81b35c3" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>8245c20f-c1c1-4d75-8dd3-da010dc6ac83</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+              </ChildNodes>
+              <TargetItemId>{1F5781F7-E8DD-4100-B753-F63B0CAC01F3}</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
+            <TocNode Name="" Id="45793428-512e-4b31-a438-629ce829292c" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate />
+              <ChildNodes>
+                <TocNode Name="" Id="8e1a04d3-a0d3-4593-85bb-d892fece3544" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>b5a085f0-47ec-42be-95e5-6d68b04bde45</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+              </ChildNodes>
+              <TargetItemId>{544AC8AF-CE0A-4D2C-9E6C-0586467491BA}</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
+          </ChildNodes>
+          <TargetItemId>6c723bd8-6d59-4934-ac49-15ad4e2c0624</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+        <TocNode Name="" Id="{B3C5DA26-CC9E-46AC-8FB2-2B20DFC3D594}" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+          <CaptionTemplate m="2007-05-31T10:49:56Z">Reference</CaptionTemplate>
+          <ChildNodes>
+            <TocNode Name="" DocumentationTypeName="DX.NET" TemplateTocType="Custom" TemplateTocName="" DependsOnItemTypeName="" Id="967a208f-b4ce-4bc2-bb0f-47a17301fe6f" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="TEMPLATETOC">
+              <ChildNodes>
+                <TocNode Name="" Id="649fbdb5-088a-4c68-b685-9c58306e365a" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:ASSEMBLY" RepeatsForItemTypeFilter="" LinkToPage="false" NodeType="REPEATING">
+                  <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                  <ChildNodes>
+                    <TocNode Name="" Id="28cbf1b1-1955-4e1f-9f67-352638d3189c" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:NAMESPACE" RepeatsForItemTypeFilter="" LinkToPage="false" NodeType="REPEATING">
+                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                      <ChildNodes>
+                        <TocNode Name="" Id="8f5f9e19-4470-452a-96a9-f3116d7a59f5" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                          <CaptionTemplate>$$Overview$$</CaptionTemplate>
+                          <ChildNodes />
+                          <PageTypeName>namespace.html</PageTypeName>
+                        </TocNode>
+                        <TocNode Name="" Id="e2dd368e-5718-49cb-bb6c-2686a2873c8d" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:CLASS" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                          <CaptionTemplate>$$Classes$$</CaptionTemplate>
+                          <ChildNodes>
+                            <TocNode Name="" Id="e322d70f-decb-4ca9-b865-d53e8b6bb693" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:CLASS" RepeatsForItemTypeFilter="" LinkToPage="true" NodeType="REPEATING">
+                              <CaptionTemplate>%%Short_Item_Title%%</CaptionTemplate>
+                              <ChildNodes>
+                                <TocNode Name="" Id="962840f8-47d0-46f2-b4f8-420a5fc97e24" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Overview$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>class.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="994efd61-741a-41d7-873e-1ff3d7479d08" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Members$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>class_members.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="5b0eba4e-48c2-4dd4-b30b-f773397f4fc6" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:CONSTRUCTOR" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:CONSTRUCTOR" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                  <CaptionTemplate>%%Constructor_Title%%</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="8b42950d-8788-4a1c-9ada-40c7fb1e08a1" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:CONSTRUCTOR" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Constructor_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <FileNameTemplate></FileNameTemplate>
+                                </TocNode>
+                                <TocNode Name="" Id="fca28b54-6b01-46bf-a7b9-19458c027224" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:METHOD" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Methods$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="84bd69d0-1069-457d-bbce-578f3c539dd4" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="99fded4d-019d-453a-b565-a12bfdeb0a71" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>class_methods.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="d48edbd1-55f0-4d4b-8c2d-eaa9e5244267" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:PROPERTY" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Properties$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="1de9bdc7-c706-4b56-9a4f-1707e4999655" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="3ba01d34-de2c-4085-97c8-d999b73cc780" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>class_properties.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="c9596a22-b141-41aa-96a2-9b764208a208" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:FIELD" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Fields$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="004ccbce-3f43-4eb8-ac9a-494a8a5056ad" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:FIELD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>class_fields.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="344b11ca-265c-418c-b9b6-d1b73d62e1b3" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:EVENT" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Events$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="c85f428f-e2ed-4546-ad12-5a00b377ccd3" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:EVENT" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>class_events.html</PageTypeName>
+                                </TocNode>
+                              </ChildNodes>
+                              <FileNameTemplate></FileNameTemplate>
+                            </TocNode>
+                          </ChildNodes>
+                        </TocNode>
+                        <TocNode Name="" Id="0f330ef6-3676-4a9c-b4dd-baea10db52be" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:ENUMERATION" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                          <CaptionTemplate>$$Enumerations$$</CaptionTemplate>
+                          <ChildNodes>
+                            <TocNode Name="" Id="82be2ac7-1832-486c-a38b-17c61e18430f" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:ENUMERATION" RepeatsForItemTypeFilter="" LinkToPage="true" NodeType="REPEATING">
+                              <CaptionTemplate>%%Short_Item_Title%%</CaptionTemplate>
+                              <ChildNodes />
+                              <FileNameTemplate></FileNameTemplate>
+                            </TocNode>
+                          </ChildNodes>
+                        </TocNode>
+                        <TocNode Name="" Id="b8631a2c-8349-4a76-ae4f-b236f71199df" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:STRUCTURE" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                          <CaptionTemplate>$$Structures$$</CaptionTemplate>
+                          <ChildNodes>
+                            <TocNode Name="" Id="aa9437d8-97d2-442b-b813-9da48dd807e2" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:STRUCTURE" RepeatsForItemTypeFilter="" LinkToPage="true" NodeType="REPEATING">
+                              <CaptionTemplate>%%Short_Item_Title%%</CaptionTemplate>
+                              <ChildNodes>
+                                <TocNode Name="" Id="6852587e-ee5d-478f-a2e4-d686e5700729" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Overview$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>structure.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="d6029b1b-4b86-4fb0-8507-a82e03cf6cfe" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Members$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>structure_members.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="7deff43a-d284-41c4-9f98-a77626124b4e" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:CONSTRUCTOR" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                  <CaptionTemplate>%%Constructor_Title%%</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="9df6faeb-62c8-4ae9-883f-89b85171fcd4" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:CONSTRUCTOR" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Constructor_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <FileNameTemplate></FileNameTemplate>
+                                </TocNode>
+                                <TocNode Name="" Id="8478c317-0aa4-41c8-87a7-39175cfa6d39" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:METHOD" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Methods$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="489d4e02-6c62-4811-bc9d-9e226562da59" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="c113733f-d313-4fd4-927e-0853fea3b0f7" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>structure_methods.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="a06c6682-a9b0-4a22-aad9-f2064ea418ae" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:PROPERTY" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Properties$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="f6a58399-43e2-4be3-bc33-61ff2c2ebade" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="b095de2a-b94c-4fe6-8f0f-5cb518337529" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>structure_properties.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="ffaa8159-fe0c-4e80-8440-aae46fbfb679" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:FIELD" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Fields$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="145460f3-081a-4982-8f4c-b7355eebbbc9" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:FIELD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>structure_fields.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="42f3ec48-bc55-409f-8362-4fbbf0d50483" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:EVENT" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Events$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="92b4eef7-5b27-4c9b-a6af-36a2d09c1252" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:EVENT" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>structure_events.html</PageTypeName>
+                                </TocNode>
+                              </ChildNodes>
+                              <FileNameTemplate></FileNameTemplate>
+                            </TocNode>
+                          </ChildNodes>
+                        </TocNode>
+                        <TocNode Name="" Id="51cb55b9-b7cb-49d7-9dca-1f6b998f07fb" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:INTERFACE" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                          <CaptionTemplate>$$Interfaces$$</CaptionTemplate>
+                          <ChildNodes>
+                            <TocNode Name="" Id="0770f0f6-cecf-4561-8ab5-a0c7f8d44b28" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:INTERFACE" RepeatsForItemTypeFilter="" LinkToPage="true" NodeType="REPEATING">
+                              <CaptionTemplate>%%Short_Item_Title%%</CaptionTemplate>
+                              <ChildNodes>
+                                <TocNode Name="" Id="05997b66-81d1-4f61-afc1-fd6afd544bcf" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Overview$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>class.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="288b8992-c117-43c2-9aea-72200df522c2" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Members$$</CaptionTemplate>
+                                  <ChildNodes />
+                                  <PageTypeName>class_members.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="51e8cad5-de10-46c8-b791-193dc26d6f01" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:METHOD" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Methods$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="cb3dbddf-3863-41a9-a0dd-8014fc7b5253" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="512edc7f-ca16-448a-81e8-25e5a5d2e1e5" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:METHOD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>Interface_methods.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="acd56c64-2c81-4f98-bb99-df35819166e8" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:PROPERTY" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Properties$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="40a8943e-e745-471b-8846-a5e36e15015f" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes>
+                                        <TocNode Name="" Id="0fa09de8-cbaf-4d2c-a23c-19cd0284d025" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:PROPERTY" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                          <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                          <ChildNodes />
+                                          <FileNameTemplate></FileNameTemplate>
+                                        </TocNode>
+                                      </ChildNodes>
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>Interface_properties.html</PageTypeName>
+                                </TocNode>
+                                <TocNode Name="" Id="5151aded-6248-441b-b0dc-316a31c4472b" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:FIELD" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                                  <CaptionTemplate>$$Fields$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="2fee2467-5ec9-43ca-9227-b6ea0563f1fc" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:FIELD" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                </TocNode>
+                                <TocNode Name="" Id="4d5a8622-ad24-4cf3-80a4-fce0ace24c49" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:EVENT" DependsOnItemTypeFilter="includeinherited=false" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PAGETYPE">
+                                  <CaptionTemplate>$$Events$$</CaptionTemplate>
+                                  <ChildNodes>
+                                    <TocNode Name="" Id="300c63ae-ad80-43c8-974a-fc8fcd8fc9fb" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:EVENT" RepeatsForItemTypeFilter="includeinherited=false" LinkToPage="true" NodeType="REPEATING">
+                                      <CaptionTemplate>%%Local_Item_Title%%</CaptionTemplate>
+                                      <ChildNodes />
+                                      <FileNameTemplate></FileNameTemplate>
+                                    </TocNode>
+                                  </ChildNodes>
+                                  <PageTypeName>Interface_events.html</PageTypeName>
+                                </TocNode>
+                              </ChildNodes>
+                              <FileNameTemplate></FileNameTemplate>
+                            </TocNode>
+                          </ChildNodes>
+                        </TocNode>
+                        <TocNode Name="" Id="5e77797e-4253-4155-8037-77683c78e667" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="DX.NET:DELEGATE" DependsOnItemTypeFilter="" DependsOnMinimumCount="1" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
+                          <CaptionTemplate>Delegates</CaptionTemplate>
+                          <ChildNodes>
+                            <TocNode Name="" Id="bc61db9a-3533-4051-8617-edbc81ca37f1" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" RepeatsForItemTypeName="DX.NET:DELEGATE" RepeatsForItemTypeFilter="" LinkToPage="true" NodeType="REPEATING">
+                              <CaptionTemplate>%%Short_Item_Title%%</CaptionTemplate>
+                              <ChildNodes />
+                              <FileNameTemplate></FileNameTemplate>
+                            </TocNode>
+                          </ChildNodes>
+                        </TocNode>
+                      </ChildNodes>
+                      <FileNameTemplate></FileNameTemplate>
+                    </TocNode>
+                  </ChildNodes>
+                  <FileNameTemplate></FileNameTemplate>
+                </TocNode>
+              </ChildNodes>
+            </TocNode>
+          </ChildNodes>
+        </TocNode>
+        <TocNode Name="" Id="63012595-5a5b-4ddd-81dd-82528ec4b020" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate />
+          <ChildNodes />
+          <TargetItemId>{728F595D-5426-4B4A-A5B3-2C6865FEA866}</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+        <TocNode Name="" Id="{94D80825-7689-47E2-907A-CD757BF98FE7}" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate m="0001-01-01T00:00:00Z" />
+          <ChildNodes />
+          <TargetItemId>{4A40674C-86C0-4FF4-A6F4-463328D25FF3}</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+        <TocNode Name="" Id="3603ec44-91e5-4fbc-9639-9ccd1e4ab0d1" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate />
+          <ChildNodes />
+          <TargetItemId>{95CC9CE0-63F7-4C1D-A216-ECD61B43B016}</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+        <TocNode Name="" Id="{A86F889F-66A6-47BF-850F-7E659A507315}" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+          <CaptionTemplate m="0001-01-01T00:00:00Z" />
+          <ChildNodes />
+          <TargetItemId>{99E1524B-2E6B-4ADC-8A3C-95903CD29559}</TargetItemId>
+          <TargetItemBookmark></TargetItemBookmark>
+        </TocNode>
+      </RootNodes>
+    </TocLayout>
+  </TableOfContents>
+  <TopicsProjectPlugin>
+    <TopicCategories>
+      <TopicCategory Id="-" AutoIndex="false">
+        <Caption>(Un-categorized)</Caption>
+        <ChildTopicCategories />
+        <Topics />
+      </TopicCategory>
+      <TopicCategory Id="{7CE5B514-D697-4B47-9C00-2A639FF212E5}" AutoIndex="true">
+        <Caption m="2007-05-31T10:49:56Z">License Agreement</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="{99E1524B-2E6B-4ADC-8A3C-95903CD29559}" Status="In Progress" CreatedOn="2005-06-04T00:00:00Z" ModifiedOn="2020-09-02T07:14:35.8086179Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="License Agreement" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">License Agreement</Title>
+            <ContentsTitle m="2007-05-31T10:49:56Z" />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-09-02T07:14:35.8086179Z">&lt;P&gt;TECHNOSOFTWARE (THE "LICENSOR") IS WILLING TO LICENSE THE ACCOMPANYING SOFTWARE AND ASSOCIATED DOCUMENTATION INCLUDING AUTHORIZED COPIES OF EACH (THE "SOFTWARE") TO YOU ("LICENSEE") ONLY ON THE CONDITION THAT LICENSEE ACCEPTS ALL OF THE TERMS IN THIS AGREEMENT.&lt;/P&gt;
+&lt;P&gt;The licensed Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The licensed Software is licensed, not sold. Technosoftware shall own all right, title and interest including the intellectual property rights in and to the information on bug fixes or error corrections relating to the licensed Software that are submitted by Licensee to Technosoftware as well as any intellectual property rights to the correction of any errors, if any.&lt;/P&gt;
+&lt;P&gt;PLEASE READ THE TERMS CAREFULLY BEFORE INSTALLING THE SOFTWARE. BY INSTALLING THE SOFTWARE, LICENSEE ACKNOWLEDGES THAT LICENSEE HAS READ AND UNDERSTANDS THIS AGREEMENT AND AGREES TO BE BOUND BY ITS TERMS AND CONDITIONS. THE EFFECTIVE DATE OF THIS AGREEMENT SHALL BE THE DATE UPON THE SOFTWARE WAS FIRST DELIVERED TO YOU OR FIRST DOWNLOADED BY YOU.&lt;/P&gt;
+&lt;P&gt;IF LICENSEE DOES NOT ACCEPT THESE LICENSE TERMS, THEN TECHNOSOFTWARE DOES NOT GRANT ANY LICENSE TO THE SOFTWARE, AND LICENSEE MUST NOT DOWNLOAD OR INSTALL THE SOFTWARE.&lt;/P&gt;
+&lt;P&gt;TECHNOSOFTWARE provides different licenses depending on the component and on the ownership of a purchased license of the user of the sources. A single ZIP file or a single repository can contain multiple components where the sources have different license models. The valid license is in the header of each source file.&lt;/P&gt;
+&lt;P&gt;Following are basic rules on how TECHNOSOFTWARE licenses the different components:&lt;/P&gt;
+&lt;P&gt;1. OPC DA/AE/HDA and OPC UA core components follow a dual-license model:&lt;BR&gt;&amp;nbsp; - Owner of a purchased license:&amp;nbsp;&lt;A href="https://technosoftware.com/license/Source_Code_License_Agreement.pdf"&gt;SCLA 1.0&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; enables Owner of a purchased license to deploy their applications using the core component sources without being required to disclose the application code.&lt;BR&gt;&amp;nbsp;&lt;BR&gt;&amp;nbsp; - Users that are not Owner of a purchased license:&amp;nbsp;&lt;A href="https://technosoftware.com/license/GPLv3License.txt"&gt;GPL 3.0&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Based on the GPL 3.0 license terms these users must disclose their application code when using the core component sources.&lt;BR&gt;&amp;nbsp;&lt;BR&gt;2. Samples and Utilities: &lt;/P&gt;
+&lt;P&gt;&amp;nbsp; - All samples and most of the utilities are provided under the [&lt;A href="https://technosoftware.com/license/MITLicense.txt"&gt;MIT&lt;/A&gt;]&amp;nbsp;license for everyone.&lt;BR&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="C1" AutoIndex="true">
+        <Caption m="2007-05-31T10:49:56Z">Overview</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="{EE6C442B-769D-491F-B730-CAE8A259C379}" Status="In Progress" CreatedOn="2005-06-04T00:00:00Z" ModifiedOn="2020-10-07T09:16:52.1653313Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Overview" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">Overview</Title>
+            <ContentsTitle m="2016-07-22T15:41:34.0644345Z">Overview</ContentsTitle>
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T09:16:52.1653313Z">&lt;H1&gt;OPC DA/AE Server&amp;nbsp;Base.NET&lt;/H1&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OPCDAAEServerBase.png" align=right&gt;The OPC DA/AE Server Solution .NET offers a fast and easy access to the OPC Data Access (DA) and OPC Alarms&amp;amp;Events (AE) technology. Develop OPC DA 2.05a, DA 3.00 and OPC AE 1.00, OPC AE 1.10 compliant Servers with C#/VB.NET or any other compiler capable of generating a .NET assembly.&lt;/P&gt;
+&lt;P&gt;The developer can concentrate on his application and servers can be developed fast and easily without the need to spend a lot of time learning how to implement the OPC Classic specifications. The server API is easy to use and many OPC specific functions are handled by the framework.&lt;/P&gt;
+&lt;P&gt;The &lt;STRONG&gt;"Framework"&lt;/STRONG&gt; includes all OPC DA 2.05a, 3.00 and OPC AE 1.00, 1.10 handling and ensures the OPC compliance. It is implemented as a generic C++ based executable.&lt;/P&gt;
+&lt;P&gt;The &lt;STRONG&gt;"Server API"&lt;/STRONG&gt; defines easy to use interface functions required for developing OPC DA and OPC AE compliant servers. The OPC server is supplied as an EXE file with the application adaptation part in a .NET assembly DLL. This imposes some limitations on the adaptation possibilities but makes the adaptation much easier and quicker. By using this API DA and AE servers can be easily implemented by adapting just a few functions. The functions handle the configuration of the server and the read/write functionality of items.&lt;/P&gt;
+&lt;P&gt;The server supports all mandatory and optional OPC DA 2.05a interfaces and all mandatory OPC DA 3.00 interfaces. Also supported are OPC AE 1.00 and AE 1.10. The provided sample servers and sample clients, together with the detailed documentation and online help provides all essential information and tools you need to successfully develop your server application.&lt;/P&gt;
+&lt;H3&gt;Features:&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Servers are fully compliant to OPC DA 2.05, OPC DA 3.0, OPC AE 1.00 and OPC AE 1.10. 
+&lt;LI&gt;Supports 32bit and 64bit mode. 
+&lt;LI&gt;The administration of object instances can be delegated to the framework. 
+&lt;LI&gt;Easy to understand and well documented sample servers show how to use the framework. 
+&lt;LI&gt;Diagnostic client and diagnostic tools as executable included. 
+&lt;LI&gt;Increased maintainability and usability through the use of consistent coding guidelines and standard naming conventions. 
+&lt;LI&gt;Can be used in pure .NET 4 environments, no requirements of earlier .NET frameworks. 
+&lt;LI&gt;Includes a .NET 4.8 based version of the gereneric server executable. 
+&lt;LI&gt;No run-time licenses required. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Supported Classic OPC Specifications:&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;OPC Data Access 
+&lt;LI&gt;OPC Alarams&amp;amp;Events &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="{F2633C9A-4755-49BA-9C54-58DA4F582376}" Status="In Progress" CreatedOn="2005-06-04T00:00:00Z" ModifiedOn="2020-10-07T10:28:48.9377479Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Components" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">Components</Title>
+            <ContentsTitle m="2011-08-14T15:08:27.8636803Z">Components</ContentsTitle>
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:48.9377479Z">&lt;P&gt;The following assemblies are part of the OPC DA/AE Server Solution .NET.&lt;/P&gt;
+&lt;H3&gt;64bit Applications&lt;/H3&gt;
+&lt;TABLE class=InfoTable cellSpacing=0 cellPadding=0&gt;
+&lt;TBODY&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf height=23 width="40%"&gt;&lt;STRONG&gt;Component&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf height=23 width="60%"&gt;&lt;STRONG&gt;Description&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;x64\net\OpcNetDaAeServer.exe&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;This is the generic OPC DA 2.05a, 3.00 and OPC AE 1.00, AE 1.10 server for the .NET 4.8 framework.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;x64\net\DAOnly\OpcNetDaServer.exe&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;This is the generic OPC DA 2.05a and OPC DA, 3.00 server for the .NET 4.8 framework.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;x64\net\ServerPlugin.dll&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;Customization module.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H3&gt;32bit Applications&lt;/H3&gt;
+&lt;TABLE class=InfoTable cellSpacing=0 cellPadding=0&gt;
+&lt;TBODY&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf height=23 width="40%"&gt;&lt;STRONG&gt;Component&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf height=23 width="60%"&gt;&lt;STRONG&gt;Description&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;Win32\net\OpcNetDaAeServer.exe&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;This is the generic OPC DA 2.05a, 3.00 and OPC AE 1.00, AE 1.10 server for the .NET 4.8 framework.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;Win32\net\DAOnly\OpcNetDaServer.exe&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;This is the generic OPC DA 2.05a and OPC DA, 3.00 server for the .NET 4.8 framework.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width="40%"&gt;Win32\net\ServerPlugin.dll&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width="60%"&gt;Customization module.&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="7b2cc9d6-59a3-4216-a16c-d70192e91229" Status="New Topic" CreatedOn="2017-10-15T05:03:59.4461958Z" ModifiedOn="2017-10-15T05:09:02.0073409Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="What's New" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2017-10-15T05:09:02.0073409Z">&lt;H3&gt;Version 8.0.0&lt;/H3&gt;
+&lt;H4&gt;Actualisations, Improvements, Changes&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;OpcNetDaAeServer.exe is now OpcNetDaAeServer.exe
+&lt;LI&gt;OpcNetDaClassicServer.exe is now OpcNetDaServer.exe
+&lt;LI&gt;ClassicServerPlugin.dll is now ServerPlugin.dll&lt;/LI&gt;&lt;/UL&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="{DC8BF796-BEB3-4B56-A632-38AB611594C2}" AutoIndex="true">
+        <Caption m="2010-07-06T06:31:47.9619141Z">Tutorials</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="e28db194-2d3d-4fd3-a5f8-9fb80f478818" Status="New Topic" CreatedOn="2012-03-24T11:10:52.2783203Z" ModifiedOn="2017-12-31T07:51:47.4956831Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Getting Started" BuildFlags="">
+            <Title m="2012-09-06T20:05:09.3564453Z">Getting Started</Title>
+            <ContentsTitle m="2012-09-06T20:05:12.8203125Z">Getting Started</ContentsTitle>
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2017-12-31T07:51:47.4956831Z">&lt;P&gt;Following is a step-by-step description of the server development process.&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;TABLE class=InfoTable cellSpacing=0 cellPadding=0&gt;
+&lt;TBODY&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf width=64&gt;&lt;STRONG&gt;Step&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=TableLightLabel bgColor=#ffffcf width=827&gt;&lt;STRONG&gt;Description&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;&lt;B&gt;Create the Application Project from a Sample Application&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;1.1&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Copy the sample application directory and rename the copy.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;1.2&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Open the solution in Visual Studio and open the file &lt;I&gt;ClassicNodeManager.cs&lt;/I&gt;.&lt;BR&gt;You may change the Solution and Project name but don't change the Assembly Name (ServerPlugin.dll). Also please don't change the namespace name (ServerPlugin) and the class name (ClassicNodeManager).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;1.3&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Search the method &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaServerRegistryDefinition.html"&gt;OnGetDaServerRegistryDefinition&lt;/A&gt; and modify the registration definition.&lt;BR&gt;Each server needs a unique CLSID (ClsidServer) and AppID (ClsidApp). Use the Visual Studio Tool &lt;I&gt;Create GUID&lt;/I&gt; and paste the created unique GUID into the code, replacing the existing GUID.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;1.4&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Select Project - Properties - Debug - Start Action and change the Start External program application path to OpcNetDaAeServer.exe in the project debug output directory.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;1.4&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Compile the project.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;&lt;B&gt;Customize and Compile&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;2.1&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Edit the source files:&lt;BR&gt;- AssemblyInfo.cs&lt;BR&gt;- ClassicNodeManager.cs&lt;/P&gt;
+&lt;P&gt;and add files with additional classes as required for the project specific device handling.&lt;BR&gt;Build the application project and correct all compile errors.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;2.2&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Build the project.&lt;BR&gt;Copy the generic server OpcNetDaAeServer35.exe into the project output directory.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;2.3&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Start the project in debug mode and test the device handling.&lt;BR&gt;Use one of the supplied test clients or your own client to connect to the already started OPC server.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;2.4&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Start an OPC client, connect to the server and check the item address space and the item values.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;&lt;B&gt;Deployment&lt;/B&gt;&lt;B&gt;&lt;BR&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf height=33 vAlign=top width=64&gt;
+&lt;P&gt;3.1&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc height=33 vAlign=top width=827&gt;
+&lt;P&gt;Compile the Solution with Release configuration selected.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;3.2&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Copy the files from the Release Output directory to target computer, e.g. for the .NET 4.6.1 framework&lt;BR&gt;- net461\OpcNetDaAeServer35.exe&lt;BR&gt;- ServerPlugin.dll&lt;BR&gt;- OPC Core Components Redistributable.msi and Setup.exe from the \binaries\redist\OPCCoreComponentsRedistributable or \x86\redist\OPCCoreComponentsRedistributable installation directory&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR height=20&gt;
+&lt;TD class=TableLightDesc bgColor=#ffffcf vAlign=top width=64&gt;
+&lt;P&gt;3.3&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=TableLightDesc vAlign=top width=827&gt;
+&lt;P&gt;Execute Setup.exe to install the common OPC interfaces and the server enumerator.&lt;BR&gt;Register the OPC Server on the target computer by executing the command "OpcNetDaAeServer.exe -regserver" in the target directory.&lt;BR&gt;If you want to install the OPC server as service issue the command "OpcNetDaAeServer.exe -service" in the target directory.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="{1F5781F7-E8DD-4100-B753-F63B0CAC01F3}" Status="In Progress" CreatedOn="2005-06-07T00:00:00Z" ModifiedOn="2020-10-07T10:28:48.9466768Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="OPC Data Access" BuildFlags="">
+            <Title m="2011-10-18T06:09:21.4140625Z">OPC Data Access</Title>
+            <ContentsTitle m="2011-10-18T06:09:23.2451171Z">OPC Data Access</ContentsTitle>
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:48.9466768Z">&lt;P&gt;The OPC DA Server Base .NET Server consists of two components:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;the generic OPC Server EXE ( OpcNetDaServer.exe or OpcNetDaAeServer.exe for combined DA/AE usage&amp;nbsp;) 
+&lt;LI&gt;the customization assembly DLL ( ServerPlugin.dll ) &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE width="99%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=InfoLeft width="48%"&gt;
+&lt;P&gt;The generic server manages the OPC DA 2.05a/3.00&amp;nbsp;client interface and the internal data cache.&lt;/P&gt;
+&lt;P&gt;The customization part handles the device interface. The 'device' doesn't need to be a hardware component, it can also be a database or&amp;nbsp;another software application.&lt;/P&gt;
+&lt;P&gt;A set of customization interface methods handles:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;configuration 
+&lt;LI&gt;the data exchange 
+&lt;LI&gt;item update coordination &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;between the generic and the customization part.&lt;/P&gt;
+&lt;P&gt;The client update thread in the generic server part updates the connected clients from the cache according the client's update requests.&lt;/P&gt;
+&lt;P&gt;The customization part calls the generic server to update item values. This event driven mode ensure the best performance. But it is also possible to use the generic server refresh thread which calls&amp;nbsp;the customization&amp;nbsp;to update the generic server cache.&lt;/P&gt;
+&lt;P&gt;The write to the device is handled only when a client executes a write function. There is no periodic refresh of output items.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width="52%" align=center&gt;&lt;IMG border=0 alt="" src="images/OPCDAAEServerNETServerCustomization.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="{544AC8AF-CE0A-4D2C-9E6C-0586467491BA}" Status="In Progress" CreatedOn="2008-06-16T08:46:03Z" ModifiedOn="2020-10-07T10:28:48.9527043Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="OPC Alarms and Events" BuildFlags="">
+            <Title m="2010-07-06T06:59:05.7646484Z">OPC Alarms and Events (AE)</Title>
+            <ContentsTitle m="2008-06-24T22:52:43Z" />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:48.9527043Z">&lt;P&gt;The OPC DA/AE Server Solution .NET&amp;nbsp;Server consists of two components:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;the generic OPC Server EXE ( OpcNetDaAeServer.exe ) 
+&lt;LI&gt;the customization assembly DLL ( ServerPlugin.dll ) &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE width="99%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=InfoLeft width="48%"&gt;
+&lt;P&gt;The generic server manages the OPC DA 2.05a/3.00&amp;nbsp;and AE 1.00/AE 1.10 client interface and the internal data cache.&lt;/P&gt;
+&lt;P&gt;The customization part handles the device interface. The 'device' doesn't need to be a hardware component, it can also be a database or&amp;nbsp;another software application.&lt;/P&gt;
+&lt;P&gt;A set of customization interface methods handles:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;configuration 
+&lt;LI&gt;the data exchange 
+&lt;LI&gt;item update coordination &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;between the generic and the customization part.&lt;/P&gt;
+&lt;P&gt;The client update thread in the generic server part updates the connected clients from the cache according the client's update requests.&lt;/P&gt;
+&lt;P&gt;The customization part calls the generic server to update item values. This event driven mode ensure the best performance. But it is also possible to use the generic server refresh thread which calls&amp;nbsp;the customization&amp;nbsp;to update the generic server cache.&lt;/P&gt;
+&lt;P&gt;The write to the device is handled only when a client executes a write function. There is no periodic refresh of output items.&lt;/P&gt;
+&lt;P&gt;In addition the customization part can setup an Alarms&amp;amp;Events Server. For this&amp;nbsp;there are two major groups of functions provided by the generic server part which can be called from the customization part:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Functions to define the Event and Process Area Space. 
+&lt;LI&gt;Functions to report changes of the Condition states and to fire Simple and Tracking Events.&lt;BR&gt;&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="52%" align=center&gt;&lt;IMG border=0 alt="" src="images/OPCServerSDKNETClassicServerCustomization.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="5b9271e6-618a-43a1-8e50-5a6354575e78" Status="New Topic" CreatedOn="2012-09-09T08:39:35.0839843Z" ModifiedOn="2020-10-07T10:28:48.9727597Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="DA Customization" BuildFlags="">
+            <Title m="2012-09-09T08:39:46.9296875Z">Customization</Title>
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:48.9727597Z">&lt;P&gt;The OPC DA/AE Server Solution .NET customization&amp;nbsp;is a .NET&amp;nbsp;assembly with a set of methods that are called from the generic server and a set of generic server callback methods. The generic server calls methods from the &lt;A href="ServerPlugin~ServerPlugin.ClassicNodeManager.html"&gt;ClassicNodeManager&lt;/A&gt; class. This class can override methods implemented in the &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager.html"&gt;ClassicBaseNodeManager&lt;/A&gt; class. This allows the implementation of methods your customization requires. All other methods then use the methods from the &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager.html"&gt;ClassicBaseNodeManager&lt;/A&gt;&amp;nbsp;class.&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Definition of the ClassicNodeManager class&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;namespace ServerPlugin&lt;BR&gt;{&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public class ClassicNodeManager : ClassicBaseNodeManager&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;TABLE width="99%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=InfoLeft width="48%"&gt;
+&lt;P&gt;Immediately after startup of the generic server executable the generic server is setting up the logging feature. For this it calls&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetLogLevel.html"&gt;OnGetLogLevel()&lt;/A&gt;&lt;BR&gt;If logging is enabled here by returning something different then&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.LogLevel~Disabled.html"&gt;LogLevel.Disabled&lt;/A&gt; the generic server calls the next method: 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetLogPath.html"&gt;OnGetLogPath()&lt;/A&gt;&lt;BR&gt;This methods should either return the full path to the directory the generic server should log to or it should&amp;nbsp;return an empty string. In case of an empty striing the path of the executable is used. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;The above two functions are called directly at the beginning of the startup of the generic server before anything else is done. So it's a good starting point for debugging.&lt;/P&gt;
+&lt;P&gt;The generic server calls some&amp;nbsp;methods at startup:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaServerRegistryDefinition.html"&gt;OnGetDaServerRegistryDefinition&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaServerParameters.html"&gt;OnGetDaServerParameters&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaOptimizationParameters.html"&gt;OnGetDaOptimizationParameters&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnCreateServerItems.html"&gt;OnCreateServerItems&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;and some when a client calls certain functions:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnWriteItems.html"&gt;OnWriteItems&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;Callback functions allow the customization to&amp;nbsp;get status information from the generic server or change data in the generic server. The most important callback methods are:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddItem.html"&gt;AddItem&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~SetItemValue.html"&gt;SetItemValue&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;P class=Description&gt;Additional functions can be called by the generic server:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI class=Description&gt;Dynamic Address Space handling 
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI class=Description&gt;Custom specific browse&amp;nbsp;handling 
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnBrowseChangePosition.html"&gt;OnBrowseChangePosition&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnBrowseItemIds.html"&gt;OnBrowseItemIds&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnBrowseGetFullItemId.html"&gt;OnBrowseGetFullItemId&lt;/A&gt;&amp;nbsp; &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI class=Description&gt;Custom Property handling 
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnQueryProperties.html"&gt;OnQueryProperties&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetPropertyValue.html"&gt;OnGetPropertyValue&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI class=Description&gt;Item Update Optimizations 
+&lt;OL&gt;
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt; 
+&lt;LI class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt; &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P class=Description&gt;Additional callback functions can be used:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;
+&lt;DIV class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddProperty.html"&gt;AddProperty&lt;/A&gt;&amp;nbsp;allows adding of custom properties to the generic server &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddAnalogItem.html"&gt;AddAnalogItem&lt;/A&gt; allows adding an analog item to the generic server cache &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~RemoveItem.html"&gt;RemoveItem&lt;/A&gt;&amp;nbsp;allows removing an item from the generic server cache &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=Description&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt; gets a list of items used at least by one client &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/TD&gt;
+&lt;TD width="52%" align=center&gt;&lt;IMG border=0 alt="" src="images/OPCDAAEServerNETCustomization.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="ddd8a4c1-1ed1-478b-af2f-946e18e6681f" Status="New Topic" CreatedOn="2012-09-09T09:25:37.0263671Z" ModifiedOn="2020-10-07T10:28:49.0076065Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Optimizations" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:49.0076065Z">&lt;P&gt;The OPC DA/AE Server Solution .NET&amp;nbsp;allows the usage of several optimization methods depending on the server requirements. Some of the optimization methods are called from the customization part like &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt; but others are called from the generic server. The optimization methods called by the generic server&amp;nbsp;can be turned on or off during server startup phase by setting the parameters of the &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaOptimizationParameters.html"&gt;OnGetDaOptimizationParameters&lt;/A&gt;&amp;nbsp;method.&lt;/P&gt;
+&lt;P&gt;To get an impression of the usage of these optimization methods they are explained in more detail below:&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;TABLE cellSpacing=0 cellPadding=0 width="100%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=Description width="26%"&gt;
+&lt;P&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=Description width="74%"&gt;
+&lt;P&gt;For servers with a slow update rate, e.g. because of a slow communication to the underlying device, it&amp;nbsp;can be helpful that only items gets updated which are in fact used by at least one client. With the&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt;&amp;nbsp;method the customization part can get a list of currently active items from the generic server.&lt;/P&gt;
+&lt;P&gt;This method is useful if the customization part has a slow update rate and thus &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt;&amp;nbsp;is not called very often. This reduce the number of calls from the customization part to the generic server part.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=Description width="26%"&gt;
+&lt;P&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=Description width="74%"&gt;
+&lt;P&gt;If a client&amp;nbsp;accesses items that do not yet exist in the server's cache &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt;&amp;nbsp;is called. If you didn't use the dynamic address space handling it is useful to disable the call of &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt;&amp;nbsp;by the generic server to reduce the number of calls from the generic server to the customization part. If the customization part doesn't implement &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt;&amp;nbsp;you can disable the use of &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnItemRequest.html"&gt;OnItemRequest&lt;/A&gt;&amp;nbsp;with the&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaOptimizationParameters.html"&gt;OnGetDaOptimizationParameters&lt;/A&gt;&amp;nbsp;method.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=Description width="26%"&gt;
+&lt;P&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=Description width="74%"&gt;
+&lt;P&gt;If a client calls a read from device &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt; is called. For customizations which gets notified by the underlying device of new values it sometimes can be assumed that the internal cache of the server is always current and therefore no device access is required. In such a case it is useful to disable the call of &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt; by the generic server to reduce the number of calls from the generic server to the customization part. If the customization part doesn't implement &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt; you can disable the use of &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/A&gt;&amp;nbsp;with the&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaOptimizationParameters.html"&gt;OnGetDaOptimizationParameters&lt;/A&gt;&amp;nbsp;method.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR vAlign=top&gt;
+&lt;TD class=Description width="26%"&gt;
+&lt;P&gt;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;/ &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD class=Description width="74%"&gt;
+&lt;P&gt;For servers with a high update rate or a large amount of items&amp;nbsp;the use of the&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt;&amp;nbsp;method isn't very useful becuase of the number of calls and the large array returned by this method.&lt;/P&gt;
+&lt;P&gt;Another option is to use &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;/ &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&amp;nbsp;which also allows the optimization of the item update within the customization part to only those items which are used by at least one client. If an item is&amp;nbsp;added to a group or used within an item based read/write method for the first time the generic server part calls&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;for that items and if an item is removed from a group and is no longer used elsewhere the generic server part calls&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&amp;nbsp;for that items.&lt;/P&gt;
+&lt;P&gt;This always updates the customization part to enable/disable the item update for specific items. There is no need for the customization part to call &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~GetActiveItems.html"&gt;GetActiveItems&lt;/A&gt;&amp;nbsp;during refresh because it already gets informed by &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;/ &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&amp;nbsp;and can create a always current list of active items. On the downside this means that the generic server can call many times &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;/ &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&amp;nbsp;depending on the clients behavior.&lt;/P&gt;
+&lt;P&gt;The use of &lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnAddItems.html"&gt;OnAddItems&lt;/A&gt;&amp;nbsp;/ &lt;A href="OnRemoveItems.html"&gt;OnRemoveItems&lt;/A&gt;&amp;nbsp;can be enabled/disabled&amp;nbsp;with the&amp;nbsp;&lt;A href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnGetDaOptimizationParameters.html"&gt;OnGetDaOptimizationParameters&lt;/A&gt;&amp;nbsp;method.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="6c723bd8-6d59-4934-ac49-15ad4e2c0624" Status="New Topic" CreatedOn="2015-02-04T09:38:16.9860692Z" ModifiedOn="2020-10-07T10:28:49.014606Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Server Development" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:49.014606Z">&lt;P&gt;With the OPC DA/AE Server Solution .NET the OPC Data Access&amp;nbsp;and OPC Alarms&amp;amp;Events Server development is reduced to the development of a .NET&amp;nbsp;assembly with configuration definitions and device access methods. The OPC specification handling for OPC DA&amp;nbsp;2.05a, 3.00 00 and OPC AE 1.00, 1.10 is done in the generic executable.&lt;/P&gt;
+&lt;P&gt;The customization plug-in is developed with Visual Studio 2008, 2010, 2012&amp;nbsp;or Visual Studio 2013 using C#/VB.NET which builds applications for .NET Framework 3.5, 4.0 or 4.5.&lt;/P&gt;
+&lt;P&gt;The sample applications are provided with projects for Visual Studio 2013.&lt;/P&gt;
+&lt;P&gt;The projects have a &lt;STRONG&gt;post build step&lt;/STRONG&gt; that copies the generic server (OpcNetDaAeServer.exe)&amp;nbsp;and configuration files into the project output directory. OpcNetDaAeServer.exe is copied from the project directory and if it's not there, from the parent directory.&lt;/P&gt;
+&lt;P&gt;The post build step also &lt;STRONG&gt;registers the sever&lt;/STRONG&gt; by running the server with the -regserver command line argument.&lt;/P&gt;
+&lt;H3&gt;New Project&lt;/H3&gt;A new server development project can be based on one of the sample applications: 
+&lt;P&gt;Copy the best fitted sample application into a new directory and make the following changes:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;open the copied project in Visual Studio and optionally change the solution and project name 
+&lt;LI&gt;open the file ClassicNodeManager.cs&amp;nbsp;and change the server registration definitions in the method &lt;A href="OnGetDaServerRegistryDefinition.html"&gt;OnGetDaServerRegistryDefinition&lt;/A&gt;&amp;nbsp;and &lt;A href="OnGetAeServerRegistryDefinition.html"&gt;OnGetAeServerRegistryDefinition&lt;/A&gt;&amp;nbsp;in case of a combined OPC DA/AE server.&lt;BR&gt;Unique GUIDs for the CLSID and APPID can be generate with the Visual Studio tool &lt;I&gt;Create GUIDS&lt;/I&gt; 
+&lt;LI&gt;open the Visual Studio project properties, select Project - Properties - Debug - Start Action and change the Start External program application path to OpcNetDaAeServer.exe in the project debug output directory 
+&lt;LI&gt;compile the project. The copied sample application now runs under a new ProgID. 
+&lt;LI&gt;make the functional program changes &lt;/LI&gt;&lt;/UL&gt;&lt;!--DXMETADATA end--&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="C3" AutoIndex="true">
+        <Caption m="2007-05-31T10:49:56Z">Reference</Caption>
+        <ChildTopicCategories />
+        <Topics />
+      </TopicCategory>
+      <TopicCategory Id="{F7E1C983-90F3-4B53-BF8F-82208A13BC00}" AutoIndex="true">
+        <Caption m="2007-05-31T10:49:56Z">Deploying your Application</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="{728F595D-5426-4B4A-A5B3-2C6865FEA866}" Status="In Progress" CreatedOn="2005-06-13T00:00:00Z" ModifiedOn="2020-10-07T10:28:49.024606Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Deploying your Application" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">Deploying your Application</Title>
+            <ContentsTitle m="2007-05-31T10:49:56Z" />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T10:28:49.024606Z">&lt;H4&gt;Deploying your Application&lt;/H4&gt;
+&lt;P&gt;There are 2 main issues you need to be aware of when deploying your application to&amp;nbsp;end users:&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P dir=ltr&gt;&lt;STRONG&gt;Required Software Components&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;Please be sure that the required software components are installed. If they are not yet install please install the software as follows:&lt;/P&gt;
+&lt;OL dir=ltr&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Install the .NET Framework&lt;/STRONG&gt;&lt;BR&gt;Install the .NET Framework 4.8 distributable which can be downloaded from &lt;A href="http://www.microsoft.com"&gt;www.microsoft.com&lt;/A&gt; or is installed with Microsoft Visual Studio&amp;nbsp;2019.&lt;BR&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Install the Visual C++ Redistributable for Visual Studio 2019&lt;BR&gt;&lt;/STRONG&gt;The generic server executables OpcNetDaAeServer.exe and OpcNetDaServer.exe are developed with C++ and Visual Studio 2019. Because of this you need to install the Visual C++ Redistributable for Visual Studio 2019. Use one of the following: &lt;/DIV&gt;
+&lt;DIV&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;A href="https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F2977003%2Fthe-latest-supported-visual-c-downloads"&gt;https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F2977003%2Fthe-latest-supported-visual-c-downloads&lt;/A&gt; 
+&lt;OL&gt;
+&lt;LI&gt;If the operating system used is a 64bit operating system and the used generic server executable is&amp;nbsp;64bit you need to use the x64 download version. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;If the operating system used is a 32bit operating system or&amp;nbsp;the used generic server executable is&amp;nbsp;32bit you need to use the x86 download version.&lt;BR&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;OPC Core Components distributable&lt;/STRONG&gt;&lt;BR&gt;This setup application installs the OPC Core components required by applications based on the OPC DA/AE Server Solution&amp;nbsp;.NET. You csan get it from:&amp;nbsp; &lt;/DIV&gt;
+&lt;DIV&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;A href="https://opcfoundation.org/developer-tools/samples-and-tools-classic/core-components/"&gt;https://opcfoundation.org/developer-tools/samples-and-tools-classic/core-components/&lt;/A&gt;&lt;BR&gt;We used the 3.00.108 version for our tests &lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;P dir=ltr&gt;&lt;STRONG&gt;OPC DA/AE Server&amp;nbsp;Base .NET Components&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;The following files must be copied into the same directory&lt;/P&gt;
+&lt;OL dir=ltr&gt;
+&lt;LI&gt;
+&lt;DIV&gt;Generic Server Executable, either&amp;nbsp;32bit or 64bit versions. Choose OpcNetDaAeServer.exe or OpcNetDaServer.exe. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;Your ServerPlugin.dll. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;/BLOCKQUOTE&gt;
+&lt;H3&gt;Register/Unregister the OPC Server&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI value=1&gt;Register&lt;BR&gt;You can use the following command to register the OPC Server: OpcNetDaAeServer.exe -regserver or OpcNetDaServer.exe -regserver &lt;/LI&gt;&lt;/OL&gt;
+&lt;OL&gt;
+&lt;LI value=2&gt;Register as Service&lt;BR&gt;You can use the following command to register the OPC Server as service: OpcNetDaAeServer.exe -service or OpcNetDaServer.exe -service &lt;/LI&gt;&lt;/OL&gt;
+&lt;OL&gt;
+&lt;LI value=3&gt;Unregister&lt;BR&gt;You can use the following command to unregister the OPC Server: OpcNetDaAeServer.exe -unregserver or OpcNetDaAeServer.exe -unregserver &lt;/LI&gt;&lt;/OL&gt;
+&lt;P style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;/P&gt;
+&lt;TABLE style="BORDER-TOP: buttonshadow 1px solid; BORDER-RIGHT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid" cellSpacing=4 cellPadding=0 bgColor=infobackground&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD vAlign=top&gt;&lt;IMG border=0 alt="" src="icons/hs-note.gif"&gt;&lt;/TD&gt;
+&lt;TD vAlign=top&gt;After successfully deploying your application you should&amp;nbsp;check the security permission settings. &amp;nbsp;&lt;BR&gt;Most problems occur because of failures in these configuration settings. Some general hints are given in the &lt;A href="{95CC9CE0-63F7-4C1D-A216-ECD61B43B016}" style="auto-update-caption: true"&gt;Trouble Shooting&lt;/A&gt; Section.&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="C4" AutoIndex="true">
+        <Caption m="2007-05-31T10:49:56Z">Support</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="{4A40674C-86C0-4FF4-A6F4-463328D25FF3}" Status="In Progress" CreatedOn="2005-06-04T00:00:00Z" ModifiedOn="2020-10-07T09:20:40.1180287Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="System Requirements" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">System Requirements</Title>
+            <ContentsTitle m="2007-05-31T10:49:56Z" />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2020-10-07T09:20:40.1180287Z">&lt;H1&gt;System Requirements&lt;/H1&gt;
+&lt;TABLE style="WIDTH: 100%; TEXT-ALIGN: center" cellPadding=2 align=center&gt;
+&lt;TBODY&gt;
+&lt;TR style="BACKGROUND-COLOR: rgb(226,240,227)"&gt;
+&lt;TD colSpan=6&gt;Operating Systems (32bit and 64bit)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TH&gt;Windows 10&lt;/TH&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;FONT size=5 face=Lato-Regular&gt;&lt;FONT size=5 face=Lato-Regular&gt;√&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TH&gt;Windows 8.1&lt;/TH&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;FONT size=5 face=Lato-Regular&gt;&lt;FONT size=5 face=Lato-Regular&gt;√&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TH&gt;Windows Server 2016, Standard and Datacenter&lt;/TH&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;FONT size=5 face=Lato-Regular&gt;&lt;FONT size=5 face=Lato-Regular&gt;√&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TH&gt;.NET 4.8&lt;/TH&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;FONT size=5 face=Lato-Regular&gt;&lt;FONT size=5 face=Lato-Regular&gt;√&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TH&gt;Microsoft Visual Studio 2019&lt;/TH&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;FONT size=5 face=Lato-Regular&gt;&lt;FONT size=5 face=Lato-Regular&gt;√&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="{95CC9CE0-63F7-4C1D-A216-ECD61B43B016}" Status="In Progress" CreatedOn="2005-06-13T00:00:00Z" ModifiedOn="2007-05-01T11:40:49Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Trouble Shooting" BuildFlags="">
+            <Title m="2007-05-31T10:49:56Z">Trouble Shooting</Title>
+            <ContentsTitle m="2007-05-31T10:49:56Z" />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2007-05-31T10:49:56Z">&lt;P&gt;The ability of OPC clients and servers to remotely interconnect - i.e have the OPC client application running on one computer and the OPC server on another - is quite powerful and is the enabler for many interesting applications. However, therein lies a hidden issue - Distributed COM, or as it is more commonly known - DCOM. DCOM is often one of the stumbling blocks for new OPC users. So new users should take note that there are some important details to be concerned with when setting up a system for remote OPC connections. Be aware that it may be necessary to enlist the services of a network administrator, in order to safely and effectively set up the required configurations. &lt;/P&gt;
+&lt;P&gt;Most OPC servers include detailed instructions for setting up DCOM, because each DCOM configuration is potentially slightly different, therefore we chose not to include definitive information on DCOM in our OPC client documentation. As a general note, you would be wise to disable any firewall for testing purposes - that is often the source of problems. It is also a good idea once your DCOM security settings have been set and you are successfully reading and writing OPC data remotely, to confirm the integrity of your network and PCs from a security standpoint. &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;U&gt;Note:&lt;/U&gt;&lt;/STRONG&gt; Most of this section is a compilation of several sources found on the internet. This section&amp;nbsp;is not intended to be a substitute for good knowledge of the Microsoft Windows user accounts and security model. It's intention is to&amp;nbsp;point out some key things you need to have setup before you even try to configure a DCOM connection between an OPC client and an OPC server. Links to sources where you can get more information are given below. Some of the information pointed out here can also be found elsewhere.&amp;nbsp;&lt;/P&gt;
+&lt;H4&gt;DCOM Configuration on OPC Server PC&lt;/H4&gt;
+&lt;P&gt;First of all, refer to your OPC server documentation, or contact your vendor for information about setting DCOM security for your particular OPC server. The information below is intended for general reference and should not be taken as 100% accurate in all cases. No responsibility is taken for the application or misapplication of the information presented.&lt;/P&gt;
+&lt;P&gt;The following settings will enable Windows NT or Windows 2000 to communicate with an NT or Windows client and back (assuming that there are no firewalls or proxy servers involved). &lt;/P&gt;
+&lt;P&gt;To configure your OPC Server on an NT or Windows 2000 machine, follow the steps given below. Note that DCOMCNFG will only show servers that are EXEs. It will not show DLL servers. In the case of DLL servers, carefully consult the OPC server documentation. &lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Go to the Windows task bar -&amp;gt; Start -&amp;gt; Run… then type in DCOMCNFG.EXE to launch the DCOM configurator. 
+&lt;LI&gt;From the Applications tab, select the DCOM Server application (which will be represented by its ProgID - a friendly name, such as "Technosoftware.DaSample.2") or by its CLSID (a GUID - Globally Unique Identifier) such as {5BD7512F-3F2B-11D0-B4D2-02E0C911A7B1}). 
+&lt;LI&gt;Double-click the Server application or click the Properties button to view the properties of the server application. 
+&lt;LI&gt;Select the Security Tab. 
+&lt;LI&gt;Make the following changes: &lt;BR&gt;IMPORTANT: The following changes will allow anyone at all to launch the server. These settings are just for getting the servers up and running in development mode for debugging purposes. They are not intended for specific DCOM security on a target platform distribution.&lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"&gt;
+&lt;BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"&gt;&lt;PRE&gt;CUSTOM ACCESS PERMISSIONS:&lt;BR&gt;&amp;nbsp;Everyone&amp;nbsp;&amp;nbsp;&amp;nbsp; -	allow access&lt;BR&gt;&amp;nbsp;System&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; -	allow access&lt;BR&gt;&amp;nbsp;Interactive -	allow access&lt;BR&gt;CUSTOM LAUNCH PERMISSIONS:&lt;BR&gt;&amp;nbsp;Everyone&amp;nbsp;&amp;nbsp;&amp;nbsp; -	allow launch&lt;BR&gt;&amp;nbsp;System&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; -	allow launch&lt;BR&gt;&amp;nbsp;Interactive -	allow launch&lt;/PRE&gt;&lt;/BLOCKQUOTE&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;Select the Identity Tab, and then select "The Interactive User." &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Click OK, and then click OK again. &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Since your OPC server is raising events to your clients and using client callbacks, then you will also need to make the following changes to the default settings for your NT or Windows 2000 'Server' machine: &lt;/P&gt;
+&lt;P&gt;On the NT or Windows 2000 SERVER machine: &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Using DCOMCNFG.EXE, select the Default Properties Tab. &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Set the Default Authentication Level to "None." &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Set the Default Impersonation Level to "Identify." &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;NOTE: Make sure you test your DCOM application where the client and the server are running under different user accounts. &lt;/P&gt;
+&lt;P&gt;If your application works at this point, then you should not need to make any configuration settings on the client machines. &lt;/P&gt;
+&lt;P&gt;If your client is receiving events raised from the server or has enabled the server to call it back, then the following steps might be necessary, depending upon your specific network: &lt;/P&gt;
+&lt;P&gt;To configure your OPC Clients: &lt;/P&gt;
+&lt;P&gt;On the NT or Windows CLIENT machines: &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Using DCOMCNFG, select the Default Properties Tab. &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Set the Default Authentication Level to "None." &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Set the Default Impersonation Level to "Impersonate." &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;On the WIN95 CLIENT machines (if receiving events): &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Using DCOMCNFG.EXE, select the Default Security Tab. &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Click Edit Default. &lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Grant Access to "The World" user. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;NOTE: Modifying and setting security settings should be done with caution and awareness. Before modifying security settings, be sure that you understand the security implications involved. The above client settings are only necessary in certain network situations and can be added via setup code to the clients registry. For more information about writing such code see the references in the Further Information section later in this article. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H4&gt;Further Information&lt;/H4&gt;
+&lt;P&gt;There are many useful articles and sources of OPC/DCOM information available on the web, we are not going to repeat it all here. A few of them are listed below.&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.opcconnect.com/dcomcnfg.php"&gt;OPC and DCOM Security&lt;/A&gt;: Information resource provided by the OPC Programmer's Connection &lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/sp2netwk.mspx#EIAA"&gt;Changes to Functionality in Microsoft Windows XP Service Pack 2&lt;/A&gt;: Microsoft TechNet article including note on changes to DCOM in Windows XP Service Pack 2 &lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.technosoftware.com/documents/Using OPC via DCOM with XP SP2.pdf"&gt;Using OPC via DCOM with Windows XP Service Pack 2&lt;/A&gt;: OPC Foundation article on the effect of changes to DCOM in Windows XP Service Pack 2 &lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.technosoftware.com/documents/dcom_performance.pdf"&gt;DCOM and OPC Performance Issues (by Al Chisholm)&lt;/A&gt;: DCOM, OPC and Performance Issues&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.technosoftware.com/documents/opc_performance.pdf"&gt;Performance and Throughput of OPC (by Thomas Burke)&lt;/A&gt;: The Performance and Throughput of OPC &lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.technosoftware.com/documents/opcspec/opc_security.pdf"&gt;OPC DCOM White Paper (by Richard Harrison)&lt;/A&gt;: OPC DCOM White Paper&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+      <TopicCategory Id="CONTENTSNIPPETS" AutoIndex="false">
+        <Caption m="2012-03-09T05:59:32.4736328Z">Content Snippets</Caption>
+        <ChildTopicCategories />
+        <Topics />
+      </TopicCategory>
+      <TopicCategory Id="{0B66B74F-111E-4E1F-89C9-27EBCAF59BC6}" AutoIndex="false">
+        <Caption m="2012-03-17T06:39:20.7978515Z">Concepts</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="b88ff674-569e-4a97-b113-49f3fde8f75b" Status="New Topic" CreatedOn="2012-09-09T09:31:16.7675781Z" ModifiedOn="2012-09-09T09:32:14.0507812Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Refresh Handling" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2012-09-09T09:32:14.0507812Z">&lt;p&gt;The item refresh from device to client consists of two parts:&lt;/p&gt;
+
+&lt;table border="0" cellSpacing="0" cellPadding="0" width="100%"&gt;
+    &lt;tbody&gt;
+        &lt;tr vAlign="top"&gt;
+            &lt;td class="Description" width="26%"&gt;
+                &lt;p&gt;Refresh the server cache from the device&lt;/p&gt;
+
+                &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;/td&gt;
+
+            &lt;td class="Description" width="74%"&gt;
+                &lt;p&gt;Value changes can be event driven from the device or polled by a thread in the customization plug-in. The cache refresh is handled in the
+                customization module and has to be implemented in a suitable way.&lt;/p&gt;
+
+                &lt;ul&gt;
+                    &lt;li&gt;The standard&amp;nbsp;implementation uses only the &lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~SetItemValue.html"&gt;SetItemValue&lt;/a&gt; callback method to write new values to the
+                    cache whenever they get available. The device may be polled and handled event driven.&lt;/li&gt;
+
+                    &lt;li&gt;The generic server calls the customization method&amp;nbsp;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnRefreshItems.html"&gt;OnRefreshItems&lt;/a&gt;&amp;nbsp;when an OPC client executes a read
+                    from device. If possible the current value should be read from the device and the cache updated with the &lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~SetItemValue.html"&gt;SetItemValue&lt;/a&gt; callback method.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr vAlign="top"&gt;
+            &lt;td class="Description" width="26%"&gt;
+                &lt;p&gt;Update the clients&lt;/p&gt;
+            &lt;/td&gt;
+
+            &lt;td class="Description" width="74%"&gt;
+                &lt;p&gt;The update of the connected clients is handled in the generic server according the OPC specifications.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The device&amp;nbsp;update from client to device&amp;nbsp;is handled as follows:&lt;/p&gt;
+
+&lt;table border="0" cellSpacing="0" cellPadding="0" width="100%"&gt;
+    &lt;tbody&gt;
+        &lt;tr vAlign="top"&gt;
+            &lt;td class="Description" width="26%"&gt;
+                &lt;p&gt;Update temporary buffer or device&lt;/p&gt;
+
+                &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;/td&gt;
+
+            &lt;td class="Description" width="74%"&gt;
+                &lt;p&gt;The update of the temporary buffer or the device&amp;nbsp;is handled in the customization module and has to be implemented in a suitable
+                way.&lt;/p&gt;
+
+                &lt;p&gt;The generic server calls the customization method &lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~OnWriteItems.html"&gt;OnWriteItems&lt;/a&gt; when an OPC client executes a write
+                to&amp;nbsp;device and once at startup.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="8245c20f-c1c1-4d75-8dd3-da010dc6ac83" Status="New Topic" CreatedOn="2012-09-09T09:32:37.2529296Z" ModifiedOn="2012-09-09T09:32:47.8134765Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Threads" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2012-09-09T09:32:47.8134765Z">&lt;p&gt;The generic server uses the free threaded model. This prevents one client to block another client but requires all parts of the server to be programmed in a
+thread safe way. This is the case for the generic part of the server but the user has to be careful to also keep the application specific server code thread
+safe.&lt;/p&gt;
+
+&lt;h2&gt;Update Thread per Client&lt;/h2&gt;
+
+&lt;p&gt;This thread is created when a client connects to the server and exists until the client disconnects. The thread waits on an event and then checks all
+defined groups for pending asynchronous callbacks. The groups may have different refresh intervals but they are a multiple of the activation interval.&lt;/p&gt;
+
+&lt;h2&gt;Asynchronous read/write handling threads&lt;/h2&gt;
+
+&lt;p&gt;Each asynchronous read or write server call creates a thread that handles the I/O operation and asynchronous callback. The thread terminates after handling
+a single read/write request. The client may call another asynchronous read/write function before the previous calls are finished. He has however to be careful
+not to have too many calls outstanding. Otherwise the system resources may get exhausted.&lt;/p&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="b5a085f0-47ec-42be-95e5-6d68b04bde45" Status="New Topic" CreatedOn="2012-09-09T09:33:48.9570312Z" ModifiedOn="2012-09-09T09:42:08.875Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="AE Customization" BuildFlags="">
+            <Title m="2012-09-09T09:36:36.3759765Z">Customization</Title>
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2012-09-09T09:42:08.875Z">&lt;table border="0" width="99%"&gt;
+    &lt;tbody&gt;
+        &lt;tr vAlign="top"&gt;
+            &lt;td class="InfoLeft" width="48%"&gt;
+                &lt;p&gt;The following steps are required to build the Event and Process Area Space:&lt;/p&gt;
+
+                &lt;p&gt;Define the Event Categories&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddSimpleEventCategory.html"&gt;AddSimpleEventCategory&lt;/a&gt;&lt;/li&gt;
+
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddTrackingEventCategory.html"&gt;AddTrackingEventCategory&lt;/a&gt;&lt;/li&gt;
+
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddConditionEventCategory.html"&gt;AddConditionEventCategory&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Add the Attributes to the Event Categories if desired&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddEventAttribute.html"&gt;AddEventAttribute&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Specify the Condition Definitions&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddSingleStateConditionDefinition.html"&gt;AddSingleStateCondition&lt;/a&gt;&lt;/li&gt;
+
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddMultiStateConditionDefinition.html"&gt;AddMultiStateCondition&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Specify the Sub-Condition Definitions&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddSubConditionDefinition.html"&gt;AddSubCondition&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Define the Process Areas (is optional)&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddArea.html"&gt;AddArea&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Define the Event Sources&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddSource.html"&gt;AddSource&lt;/a&gt;&lt;/li&gt;
+
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AddExistingSource.html"&gt;AddExistingSource&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+
+                &lt;p&gt;Define the Event Conditions&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;&lt;a href="ServerPlugin~ServerPlugin.ClassicBaseNodeManager~AckCondition.html"&gt;AddCondition&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+
+            &lt;td width="52%" align="middle"&gt;&lt;img border="0" alt="" src="images/eventspace.gif"&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
+    </TopicCategories>
+    <CustomTopicPropertyDefinitions />
+    <PropertyDefinitionValues />
+    <AutoNameDigits>0</AutoNameDigits>
+    <AutoNameLastNumber>0</AutoNameLastNumber>
+    <AutoNameEnabled>false</AutoNameEnabled>
+    <AutoNamePrefix></AutoNamePrefix>
+    <IncludeTopicNameInTitle>false</IncludeTopicNameInTitle>
+    <TopicEditorState>
+      <Attributes>
+        <Attribute key="dtscrollpos" valuetype="integer">0</Attribute>
+        <Attribute key="scrollPosition" valuetype="integer">0</Attribute>
+      </Attributes>
+    </TopicEditorState>
+  </TopicsProjectPlugin>
+  <WidgetsProjectPlugin>
+    <WidgetTypes Version="2011.1" />
+  </WidgetsProjectPlugin>
+  <TemplateFileFeaturesProjectPlugin />
+  <ProjectSearchProjectPlugin>
+    <ProjectSearchDefinitions />
+  </ProjectSearchProjectPlugin>
+  <ContentSources>
+    <DefaultQuipAccessToken></DefaultQuipAccessToken>
+  </ContentSources>
+  <ShortFileNames IsSaveMappingsEnabled="false" MappingProvider="DEFAULT" IsLengthLimitationEnabled="false" LengthLimit="0" />
+  <VersionsAndEditions>
+    <ContentDiscoveryUrl></ContentDiscoveryUrl>
+    <NavigationUrl></NavigationUrl>
+    <Versions Id="version">
+      <Caption m="2018-12-09T08:18:22.8553885Z">Version</Caption>
+      <VersionDefinitions />
+    </Versions>
+    <Editions Id="edition">
+      <Caption m="2018-12-09T08:18:22.8553885Z">Edition</Caption>
+      <VersionDefinitions />
+    </Editions>
+  </VersionsAndEditions>
+  <Publishing />
+  <ProjectProfiles>
+    <ProjectProfile Id="{4120EBAF-EE7C-4C85-9C91-B66410AC8357}" Name="Default">
+      <DefaultItemQualifiedName>Overview</DefaultItemQualifiedName>
+      <StripMetadata>false</StripMetadata>
+      <AlwaysCopyTemplateFiles>true</AlwaysCopyTemplateFiles>
+      <OutputFileExtension>.html</OutputFileExtension>
+      <Title m="2020-10-07T10:28:48.9247395Z">OPC DA/AE Server Solution .NET</Title>
+      <ClearOutputDirectoryBeforeBuild>true</ClearOutputDirectoryBeforeBuild>
+      <IsNewIndicatorEnabled>false</IsNewIndicatorEnabled>
+      <IsNewDateTime>1899-12-30T00:00:00Z</IsNewDateTime>
+      <PublishingTargets />
+      <PropertyDefinitionValues>
+        <PropertyDefinitionValue PropertyDefinitionId="dadc4182-3687-4b09-b5da-2dd4432a12d7">
+          <PropertyValue m="2011-09-08T14:50:18.4189453Z">#FFFFFF</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="08de2c63-c533-49c3-a1d7-52b3995b9bec">
+          <PropertyValue m="2023-11-05T05:37:09.376144Z">Copyright © 2011-2023 Technosoftware GmbH</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="76de16a8-8dcb-462c-b636-b20ff0b3c3a1">
+          <PropertyValue m="2020-10-07T10:28:48.9227524Z">&lt;a href="mailto:support@technosoftware.com?subject=OPC DA/AE Server Solution .NET Documentation Feedback: %%FileName%%"&gt;Send comments&lt;/a&gt; on this topic.</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="dfae4477-6a1c-4fa6-82bb-d2f487f5b99b">
+          <PropertyValue m="2012-03-08T22:09:25.711914Z">&amp;copy;%%year%%. Technosoftware GmbH. All Rights Reserved.</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="dbeb4471-eaea-4619-a8d7-85bbffe6f30b">
+          <PropertyValue m="2011-09-08T14:50:35.3398437Z">#000000</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="ffde4c71-30f3-46bf-935f-8715acc6d6a2">
+          <PropertyValue m="2010-07-03T16:47:12.092291Z">#FFFFFF</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="07c88d6e-bb8d-4e13-a386-8c9d49dadf1a">
+          <PropertyValue m="2010-07-03T16:47:33.8515355Z">#000000</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="c912b10d-75f8-4566-99a3-61d661a6afe7">
+          <PropertyValue m="2011-07-22T20:07:21.2859984Z">#004420</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="be14b1e3-a03a-4920-bb61-caca64ceb041">
+          <PropertyValue m="2011-07-22T20:07:44.0062979Z">#AACC51</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="fb0b069e-0e70-4bdb-8fc3-6fdb9ef927b3">
+          <PropertyValue m="2012-03-08T22:09:18.1601562Z">&amp;copy; %%year%% Technosoftware GmbH. All Rights Reserved.</PropertyValue>
+        </PropertyDefinitionValue>
+        <PropertyDefinitionValue PropertyDefinitionId="a3dbf170-4a46-4d3f-9571-9b10189c0037">
+          <PropertyValue m="2020-10-07T10:28:48.9236075Z">&lt;a href="mailto:support@technosoftware.com?subject=OPC DA/AE Server Solution .NET Documentation Feedback: %%FileName%%"&gt;Send comments&lt;/a&gt; on this topic.</PropertyValue>
+        </PropertyDefinitionValue>
+      </PropertyDefinitionValues>
+      <IsTidyXhtmlEnabled>false</IsTidyXhtmlEnabled>
+      <CommunityOptions UseLocalProxyUrl="false" Enabled="false">
+        <ServerType>PublicEvaluation</ServerType>
+        <LocalProxyUrl></LocalProxyUrl>
+        <HostingAccessKey></HostingAccessKey>
+        <PrivateServerUrl></PrivateServerUrl>
+        <PrivateServerAccessKey></PrivateServerAccessKey>
+        <ProjectKey />
+      </CommunityOptions>
+      <CommunityProjectProfilePlugin IsEnabled="false">
+        <IsCompiledHelpReadinessWarningDisabled>false</IsCompiledHelpReadinessWarningDisabled>
+      </CommunityProjectProfilePlugin>
+      <DotNet>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <IncludeSystemObjectMembers>false</IncludeSystemObjectMembers>
+        <InterfacesToIgnoreInSyntax>System.*</InterfacesToIgnoreInSyntax>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <LinkToExternalDocs>true</LinkToExternalDocs>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <UseExternalXmlCommentFiles>true</UseExternalXmlCommentFiles>
+        <NoInheritedMemberTopicsExternal>true</NoInheritedMemberTopicsExternal>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <ExcludeEditorBrowsable>true</ExcludeEditorBrowsable>
+        <ExcludeBrowsableFalse>false</ExcludeBrowsableFalse>
+        <ExcludeObsolete>true</ExcludeObsolete>
+        <ExcludeCompilerGenerated>false</ExcludeCompilerGenerated>
+        <ExcludeDebuggerNonUserCode>false</ExcludeDebuggerNonUserCode>
+        <GenerateXmlCommentFile>true</GenerateXmlCommentFile>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeAssemblyBreadcrumb>false</IncludeAssemblyBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <IncludeAttributes>true</IncludeAttributes>
+        <AttributeFilterType>Exclude</AttributeFilterType>
+        <AttributeFilter></AttributeFilter>
+        <XmlIsland></XmlIsland>
+        <IdentifyAccessInTitles>false</IdentifyAccessInTitles>
+        <XmlCommentUsage>UseIfBlank</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="4" ShareSize="false">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="20" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FF000000" BorderBrush="#FF000000" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FF000000" BorderBrush="#FF000000" BorderThickness="-0" EndCap="Point" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>PropertiesOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <IncludeVbNetDefaultConstructor>false</IncludeVbNetDefaultConstructor>
+        <UseOverloadSummaryForMasterSummary>false</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>true</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootAssemblyName></RootAssemblyName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Classic</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>true</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>true</ExcludeAllProtectedFriendTypes>
+        <SyntaxSectionStyle>TemplateDefault</SyntaxSectionStyle>
+        <IsVbSyntaxMerged>true</IsVbSyntaxMerged>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>true</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+        <IncludeExtensionMethods>false</IncludeExtensionMethods>
+        <UseContentFromBaseMember>false</UseContentFromBaseMember>
+        <IsEnumValuesEnabled>false</IsEnumValuesEnabled>
+        <ExcludedLanguages>
+          <ExcludedLanguage>JScript</ExcludedLanguage>
+          <ExcludedLanguage>CPP</ExcludedLanguage>
+          <ExcludedLanguage>CPP2005</ExcludedLanguage>
+          <ExcludedLanguage>Delphi</ExcludedLanguage>
+          <ExcludedLanguage>VBUsage</ExcludedLanguage>
+          <ExcludedLanguage>VB</ExcludedLanguage>
+        </ExcludedLanguages>
+      </DotNet>
+      <Javascript>
+        <IsBrowserCompatibilityIncluded>true</IsBrowserCompatibilityIncluded>
+        <IsBrowserCompatibilityIncludedOnEveryPage>true</IsBrowserCompatibilityIncludedOnEveryPage>
+        <UseDollarPrefix>true</UseDollarPrefix>
+        <WrapInDomReady>false</WrapInDomReady>
+        <IsIncludeParametersInUsageSyntaxEnabled>false</IsIncludeParametersInUsageSyntaxEnabled>
+        <IsGenerateTypeMemberPagesEnabled>false</IsGenerateTypeMemberPagesEnabled>
+        <SyntaxIndentParametersLength>60</SyntaxIndentParametersLength>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>true</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Classic</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Javascript>
+      <Ajax>
+        <IncludeRelationshipDiagrams>false</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeComponentBreadcrumb>false</IncludeComponentBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="0" PageNestingLevels="0" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>All</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootComponentName></RootComponentName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>true</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Java>
+      <Com>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <UseHelpStrings>true</UseHelpStrings>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <HelpStringUsage>UseIfBlank</HelpStringUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="4" ShareSize="false">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="20" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FF000000" BorderBrush="#FF000000" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FF000000" BorderBrush="#FF000000" BorderThickness="-0" EndCap="Point" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>PropertiesOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>true</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <IncludeMemberIndexKeywords>true</IncludeMemberIndexKeywords>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>false</ColorizeSyntax>
+      </Com>
+      <Database>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <IncludeSqlServerSystemObjects>false</IncludeSqlServerSystemObjects>
+        <IncludeSourceForViews>true</IncludeSourceForViews>
+        <IncludeSourceForTriggers>true</IncludeSourceForTriggers>
+        <IncludeSourceForUserDefinedFunctions>true</IncludeSourceForUserDefinedFunctions>
+        <IncludeSourceForStoredProcedures>true</IncludeSourceForStoredProcedures>
+        <IncludeScriptForTables>true</IncludeScriptForTables>
+        <IncludeScriptForOtherItems>true</IncludeScriptForOtherItems>
+        <RemoveTaggedCommentsFromSource>true</RemoveTaggedCommentsFromSource>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeSchemaInformation>true</IncludeSchemaInformation>
+        <CheckAllExtendedProperties>false</CheckAllExtendedProperties>
+        <SourceContentUsage>UseIfBlank</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <MaximumDependencyLevel>5</MaximumDependencyLevel>
+        <UseSqlServerDataTypeNames>false</UseSqlServerDataTypeNames>
+      </Database>
+      <Xsd>
+        <TemplateName>Visual Studio 2008 Style</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <IncludeOverview>true</IncludeOverview>
+        <IncludeOverviewReferencedChildren>false</IncludeOverviewReferencedChildren>
+        <OverviewLevels>5</OverviewLevels>
+        <DiagramStyle>
+          <DefaultTextOptions></DefaultTextOptions>
+          <Options></Options>
+        </DiagramStyle>
+        <IncludeAttributesInDiagrams>true</IncludeAttributesInDiagrams>
+        <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+        <DiagramItemMaxExtendedRecurse>3</DiagramItemMaxExtendedRecurse>
+        <DiagramItemMaxRecurse>3</DiagramItemMaxRecurse>
+        <GenerateDiagrams>true</GenerateDiagrams>
+        <IsOverrideTemplateDiagramStyleEnabled>false</IsOverrideTemplateDiagramStyleEnabled>
+      </Xsd>
+      <Filters />
+      <WebService>
+        <TemplateName>Classic</TemplateName>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <SourceContentUsage>Merge</SourceContentUsage>
+        <UseSourceContent>true</UseSourceContent>
+        <GroupExamples>true</GroupExamples>
+        <IncludeRequestBodyDiagram>true</IncludeRequestBodyDiagram>
+        <IncludeResponseBodyDiagram>true</IncludeResponseBodyDiagram>
+        <IncludeRequestBodyOverview>true</IncludeRequestBodyOverview>
+        <IncludeResponseBodyOverview>true</IncludeResponseBodyOverview>
+        <IncludeRequestBodySampleData>true</IncludeRequestBodySampleData>
+        <IncludeResponseBodySampleData>true</IncludeResponseBodySampleData>
+        <IsSampleDataColorized>true</IsSampleDataColorized>
+        <ImplyJsonSchemas>true</ImplyJsonSchemas>
+        <IsGroupedByResource>false</IsGroupedByResource>
+        <IncludeFullResourceUriInOperationPages>true</IncludeFullResourceUriInOperationPages>
+        <UseAbsolutePathForResourcePaths>true</UseAbsolutePathForResourcePaths>
+      </WebService>
+      <HelpCompiler CompileHelpFile="false" IsWebOutputEnabled="true" IsMarkOfTheWebEnabled="false">
+        <MarkOfTheWebDomain>(0014)about:internet</MarkOfTheWebDomain>
+        <HelpFileVersion>HtmlHelp1</HelpFileVersion>
+        <Help2Namespace>OPCServerDeveloperStudio.NET</Help2Namespace>
+        <Help2FileId>Default</Help2FileId>
+        <Help2PluginToNamespaces></Help2PluginToNamespaces>
+        <Help2Plugin>false</Help2Plugin>
+        <RuntimeMerge></RuntimeMerge>
+        <IncludeTextPopupFile>false</IncludeTextPopupFile>
+        <Help3BuildIdentifier></Help3BuildIdentifier>
+        <Help3VendorName></Help3VendorName>
+        <Help3CatalogName>VS</Help3CatalogName>
+        <Help3CatalogVersion>100</Help3CatalogVersion>
+        <Help3CatalogLocaleText>en-US</Help3CatalogLocaleText>
+        <Help3TemplateName></Help3TemplateName>
+        <Help3ProductName></Help3ProductName>
+        <Help3BookName></Help3BookName>
+        <IsHelp3CreateRegistrationScriptEnabled>true</IsHelp3CreateRegistrationScriptEnabled>
+        <IsHelp3RegisterLocallyEnabled>true</IsHelp3RegisterLocallyEnabled>
+        <IsHelp3SigningEnabled>false</IsHelp3SigningEnabled>
+        <IsHelp3ValidationEnabled>false</IsHelp3ValidationEnabled>
+        <IsHelp3KeywordsEnabled>false</IsHelp3KeywordsEnabled>
+        <BrowserHelpTemplateName>Classic</BrowserHelpTemplateName>
+        <IsCustomHtmlHelpWindowSettings>false</IsCustomHtmlHelpWindowSettings>
+        <CustomHtmlHelpWindowSettings>
+          <IsExpandVisible>true</IsExpandVisible>
+          <IsBackVisible>true</IsBackVisible>
+          <IsForwardVisible>true</IsForwardVisible>
+          <IsStopVisible>false</IsStopVisible>
+          <IsRefreshVisible>false</IsRefreshVisible>
+          <IsHomeVisible>false</IsHomeVisible>
+          <IsLocateVisible>true</IsLocateVisible>
+          <IsOptionsVisible>true</IsOptionsVisible>
+          <IsPrintVisible>true</IsPrintVisible>
+          <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
+          <NavigationPaneWidth>200</NavigationPaneWidth>
+          <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
+          <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
+          <IsSearchTabVisible>true</IsSearchTabVisible>
+          <IsHistoryTabVisible>false</IsHistoryTabVisible>
+          <IsFavoritesTabVisible>true</IsFavoritesTabVisible>
+          <DefaultTab>Contents</DefaultTab>
+          <IsSaveUserWindowSettingsEnabled>true</IsSaveUserWindowSettingsEnabled>
+          <WindowSizeHeight>400</WindowSizeHeight>
+          <WindowSizeWidth>600</WindowSizeWidth>
+          <WindowLocationLeft>0</WindowLocationLeft>
+          <WindowLocationTop>0</WindowLocationTop>
+        </CustomHtmlHelpWindowSettings>
+        <IsWebOutputRootPageLinkEnabled>false</IsWebOutputRootPageLinkEnabled>
+        <BrowserHelpRootPageFileName>index</BrowserHelpRootPageFileName>
+        <HelpFileName>OPC DAAE Server Base .NET.chm</HelpFileName>
+      </HelpCompiler>
+      <RuleEngine>
+        <Rules MatchType="All" Caption="" IsReadOnly="false" Id="root">
+          <Rules>
+            <RuleGroup MatchType="All" Caption="" IsReadOnly="false" Id="standard">
+              <Rules>
+                <Rule MatchType="All" Caption="" IsReadOnly="false" Id="outputtype">
+                  <Conditions>
+                    <RuleCondition Caption="" IsReadOnly="false" BuildFlagMatchType="None" Id="7bb453b4-e4c7-46a8-ab4a-e3cdbe22798a" Designer="BUILDFLAGS">
+                      <BuildFlags>{46CEF21D-3301-4517-A875-A0906828390E}</BuildFlags>
+                    </RuleCondition>
+                  </Conditions>
+                </Rule>
+              </Rules>
+            </RuleGroup>
+            <RuleGroup MatchType="All" Caption="" IsReadOnly="false" Id="custom">
+              <Rules />
+            </RuleGroup>
+          </Rules>
+        </Rules>
+      </RuleEngine>
+      <ShortFileNames GenerateShortFileNames="true" />
+      <TopicsProjectProfilePlugin>
+        <TemplateName>Classic</TemplateName>
+        <IncludeBreadcrumbs>false</IncludeBreadcrumbs>
+        <AutoGenerateTopicIndexEntries>false</AutoGenerateTopicIndexEntries>
+        <AutoGenerateCategoryIndexEntries>false</AutoGenerateCategoryIndexEntries>
+        <IncludeOnlyCompletedTopics>false</IncludeOnlyCompletedTopics>
+        <IsNewSource>CreationDateTime</IsNewSource>
+        <IsNewCustomTopicPropertyId></IsNewCustomTopicPropertyId>
+        <IsAnchorParsingEnabled>false</IsAnchorParsingEnabled>
+      </TopicsProjectProfilePlugin>
+      <BookletsProjectProfilePlugin>
+        <TemplateName></TemplateName>
+      </BookletsProjectProfilePlugin>
+      <WidgetsProjectProfilePlugin>
+        <IsIncludeInThisTopicWidgetEnabled>false</IsIncludeInThisTopicWidgetEnabled>
+        <InThisTopicWidgetHeadingsMinimum>5</InThisTopicWidgetHeadingsMinimum>
+        <InThisTopicWidgetTagName>H1</InThisTopicWidgetTagName>
+        <InThisTopicWidgetPrefix>$$In_This_Topic$$</InThisTopicWidgetPrefix>
+        <WidgetTypes Version="2011.1" />
+      </WidgetsProjectProfilePlugin>
+      <OtherFiles>
+        <IsLogoEnabled>true</IsLogoEnabled>
+        <LogoOtherFileName>images\Technosoftware.png</LogoOtherFileName>
+        <IsGoogleAnalyticsEnabled>false</IsGoogleAnalyticsEnabled>
+        <GoogleAnalyticsId></GoogleAnalyticsId>
+        <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
+        <OtherHeadContent></OtherHeadContent>
+      </OtherFiles>
+      <VersionsAndEditions>
+        <EditionId></EditionId>
+      </VersionsAndEditions>
+      <Publishing />
+      <OutputDirectory>Build\Default</OutputDirectory>
+    </ProjectProfile>
+  </ProjectProfiles>
+  <HelpContextIDHeaderFile></HelpContextIDHeaderFile>
+  <PrimaryLocale CultureId="-">
+    <ExportDateTime></ExportDateTime>
+    <Dictionary></Dictionary>
+    <Notes></Notes>
+    <PhraseCultureId></PhraseCultureId>
+    <EncodingCulture></EncodingCulture>
+    <IsEnhancedWordBreakAnalysisEnabled>false</IsEnhancedWordBreakAnalysisEnabled>
+  </PrimaryLocale>
+</DocumentXProject>

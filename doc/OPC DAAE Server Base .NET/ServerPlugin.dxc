@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentFile Version="2010" Moniker="..\..\examples\net\C#\DaAeSampleServer\bin\x86\Release\net\ServerPlugin.dll" DocType="DX.NET" IsLocalizationDisabled="false">
+  <RelatedProject>OPC DAAE Server Base .NET.hsp</RelatedProject>
+  <State>
+    <Attributes />
+  </State>
+  <LastSelectedItem />
+  <Filters />
+</ContentFile>
