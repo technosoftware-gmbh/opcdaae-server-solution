@@ -1,7 +1,7 @@
 ## OPC DA/AE Server Solution
 
 ### Introduction
-The OPC DA/AE Server Solution offers a fast and easy access to the OPC Data Access (DA) and OPC Alarms&Events (AE) technology. Develop OPC DA 2.05a, 3.00 00 and OPC AE 1.00, 1.10 compliant Servers with any compiler capable of either
+The OPC DA/AE Server Solution offers a fast and easy access to the OPC Data Access (DA) and OPC Alarms&Events (AE) technology. Develop OPC DA 2.05a, 3.00 00 and OPC AE 1.00, 1.10 compliant Servers with with Visual Studio 2022 C++ and either
 
 - generating one server executable without the use of any DLLs.
 - generating a .NET 4.8 assembly. This results in a generic server executable plus a .NET 4.8 assembly.
@@ -16,7 +16,10 @@ The OPC DA/AE Server Solution offers unique features for performance and functio
 
 ## Online Help
 
-We provide an online help for the current version: [OPC DA/AE Server Solution C++ Online Help](https://technosoftware.com/help/opc-daae-server-solution/30/)
+We provide an online help for the current version: 
+
+- [OPC DA/AE Server Solution C++ Online Help](https://technosoftware.com/help/opc-daae-server-solution-cpp/30/)
+- [OPC DA/AE Server Solution .NET Online Help](https://technosoftware.com/help/opc-daae-server-solution-net/30/)
 
 ### Licenses
 TECHNOSOFTWARE provides different licenses depending on the component and on the ownership of a purchased license of the user of the sources. A single ZIP file or a single repository can contain multiple components where the sources have different license models. The valid license is in the header of each source file.
